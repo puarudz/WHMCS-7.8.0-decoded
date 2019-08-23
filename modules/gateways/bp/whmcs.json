@@ -1,0 +1,24 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "bp",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "BitPay",
+    "tagline": "Start accepting Bitcoin and Bitcoin Cash payments.",
+    "long": "BitPay provides Bitcoin and Bitcoin Cash payment processing services for merchants."
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "docs_url": "https:\/\/docs.whmcs.com\/BitPay"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

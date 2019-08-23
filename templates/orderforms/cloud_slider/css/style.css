@@ -1,0 +1,421 @@
+/**
+ * Cloud Slider order form style sheet
+ *
+ * Contains styling specific to the Cloud Slider order form template.
+ *
+ * @project   WHMCS
+ * @version   1.0
+ * @author    WHMCS Limited <development@whmcs.com>
+ * @copyright Copyright (c) WHMCS Limited 2005-2015
+ * @license   http://www.whmcs.com/license/
+ * @link      http://www.whmcs.com/
+ *
+ */
+
+/* General Layout */
+
+div#order-cloud_slider {
+	padding:0 0 0 0;
+	margin:0 0 20px 0;
+    height: 100%;
+    width: 100%;
+	line-height:18px;
+	font-size:14px;
+	color:#666666;
+	background-color:#f3f3f3;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+/* Text Styling */
+
+#order-cloud_slider a,
+#order-cloud_slider a:hover,
+#order-cloud_slider a:active,
+#order-cloud_slider a:visited,
+#order-cloud_slider a:link {
+    outline:none;
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+}
+
+/* Headings */
+
+#order-cloud_slider h1 {
+}
+#order-cloud_slider h2 {
+}
+#order-cloud_slider h3 {
+	padding:0 0 0 0;
+	margin:10px 0;
+	font-size:32px;
+	line-height:38px;
+	font-weight:bold;
+	color:#333333;
+}
+#order-cloud_slider h4 {
+	padding:0 0 0 0;
+	margin:10px 0;
+	font-size:24px;
+	color:#333333;
+}
+#order-cloud_slider h5 {
+	padding:0 0 0 0;
+	margin:5px 0;
+	font-size:16px;
+	color:#666666;
+	font-weight:normal;
+}
+
+#order-cloud_slider .txt-center {
+	padding-top:40px;
+	text-align:center;
+}
+
+#order-cloud_slider .main-container {
+	padding:0 2% 40px 2%;
+	margin:0 auto;
+	width:96%;
+	max-width:960px;
+}
+
+/* Plan Styles */
+
+#order-cloud_slider .plans-full-main {
+	padding:30px 0 0 0;
+	margin:0 0 0 0;
+	width:100%;
+	background: url(../img/sky-bg.jpg) repeat-x center top #eaf6fd;
+}
+#order-cloud_slider .pg-cont-container {
+	margin:0 auto;
+	width:100%;
+	max-width:825px;
+}
+#order-cloud_slider .heading-with-cloud {
+	padding:0 0 0 0;
+	margin:30px 0 0 0;
+	text-align:center;
+	position:relative;
+}
+#order-cloud_slider .heading-with-cloud .texts-container {
+	padding:0 0 0 0;
+	margin:0 0 20px 0;
+	font-size:57px;
+	text-transform:uppercase;
+	color:#99b826;
+}
+#order-cloud_slider .heading-with-cloud .images-container {
+	position:absolute;
+	top:10px;
+	text-align:center;
+	width:100%;
+	z-index:0;
+}
+#order-cloud_slider .tag-line-head {
+	text-align:center;
+	position:relative;
+	z-index:100;
+}
+#order-cloud_slider .tag-line-head h5 {
+	font-size:22px;
+	color:#53616c;
+}
+#order-cloud_slider .price-calc-container {
+	margin:20px 0 30px 0;
+	width:100%;
+	background:#ffffff;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-ms-border-radius:5px;
+	border-radius:5px;
+	-webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.20);
+	-moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.20);
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.20);
+	position:relative;
+	z-index:100;
+}
+#order-cloud_slider .price-calc-top {
+	padding:20px 30px;
+	background:#f8f8f8;
+	-moz-border-radius:5px 5px 0 0;
+	-webkit-border-radius:5px 5px 0 0;
+	-ms-border-radius:5px 5px 0 0;
+	border-radius:5px 5px 0 0;
+	border-bottom:1px solid #ebebeb;
+}
+#order-cloud_slider .price-calc-top .price-cont {
+	padding:8px 0 0 0;
+	display:block;
+	font-size:24px;
+	color:#333333;
+}
+#order-cloud_slider .price-calc-top .order-btn,
+#order-cloud_slider .price-calc-top .order-btn:hover {
+	padding:12px 40px;
+	margin:10px 0;
+	font-size:16px;
+	color:#ffffff;
+	display:inline-table;
+	font-weight:bold;
+	background: #00afea; /* Old browsers */
+	background: -moz-linear-gradient(top,  #00afea 0%, #0089b8 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00afea), color-stop(100%,#0089b8)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #00afea 0%,#0089b8 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #00afea 0%,#0089b8 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #00afea 0%,#0089b8 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #00afea 0%,#0089b8 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00afea', endColorstr='#0089b8',GradientType=0 ); /* IE6-9 */
+	-webkit-border-radius:30px;
+	-moz-border-radius:30px;
+	-ms-border-radius:30px;
+	border-radius:30px;
+	text-decoration:none;
+	-webkit-text-shadow: 0 0 1px rgba(0,0,0,0.4);
+	-moz-text-shadow: 0 0 1px rgba(0,0,0,0.4);
+	-ms-text-shadow: 0 0 1px rgba(0,0,0,0.4);
+	text-shadow: 0 0 1px rgba(0,0,0,0.4);
+}
+#order-cloud_slider .price-calc-btm {
+	padding:20px 30px;
+}
+#order-cloud_slider .price-calc-btm .container-with-progress-bar {
+	padding-top:10px;
+	padding-bottom:20px;
+	font-size:14px;
+	line-height:26px;
+	font-weight:normal;
+}
+#order-cloud_slider .price-calc-btm .container-with-progress-bar span {
+	font-size:24px;
+	color:#333333;
+	display:block;
+}
+#order-cloud_slider .price-calc-btm .progress.small-progress {
+	margin:10px 0 0 0;
+	height:7px;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	-ms-box-shadow:none;
+	box-shadow:none;
+	background-color:#f3f3f3;
+}
+#order-cloud_slider .price-calc-btm .progress.small-progress .progress-bar {
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	-ms-box-shadow:none;
+	box-shadow:none;
+	background-color:#66cc00;
+}
+
+/* Sliders Styles Overwrite */
+
+.irs-with-grid {
+	margin-top:20px;
+	height:60px;
+	margin-left:10px;
+}
+.irs-from,
+.irs-to,
+.irs-single {
+    color: #53616c;
+    font-size: 18px; line-height: 1.333;
+    text-shadow: none;
+    padding: 1px 5px 8px 5px;
+    background: #f8f8f8;
+	z-index:1000;
+	top:-8px;
+}
+.irs-grid-pol {
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity:0;
+	background: #428bca;
+}
+.irs-grid-text {
+    top: 0;
+    color: #53616c;
+	font-size:14px;
+}
+.irs-grid {
+    bottom:inherit;
+	top:10px;
+}
+.irs-min,
+.irs-max {
+	display:none;
+}
+.irs-slider,
+.irs-slider:hover {
+    top: 21px;
+    width:40px; height:40px;
+    border:0 solid #AAA;
+    background: #DDD;
+    background:url(../img/slider-ct.png) no-repeat;
+    background-size:100%;
+    border-radius: 27px;
+    -moz-border-radius: 27px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    cursor: pointer;
+	z-index:1100;
+}
+.irs-line {
+	background:#00ffbf;
+	border:0;
+	height:16px;
+	-webkit-box-shadow: inset 0 2px 2px 0 rgba(0,0,0,0.20);
+	-moz-box-shadow: inset 0 2px 2px 0 rgba(0,0,0,0.20);
+	box-shadow: inset 0 2px 2px 0 rgba(0,0,0,0.20);
+}
+.irs-bar {
+    height: 10px;
+	top: 36px;
+    border-top:0 solid #428bca;
+    border-bottom:0 solid #428bca;
+    background: #00afea;
+}
+.irs-bar-edge {
+	height: 10px;
+	top: 36px;
+	width: 18px;
+	border:0 solid #428bca;
+    background: #00afea;
+	border-radius: 16px 0 0 16px;
+	-moz-border-radius: 16px 0 0 16px;
+	margin-left:3px;
+}
+
+/* Includes Content Area */
+
+#order-cloud_slider .includes-container {
+	margin:0 auto;
+	width:100%;
+	max-width:780px;
+	padding-top:35px;
+}
+#order-cloud_slider .includes-container .head-area {
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	text-align:center;
+	background:url(../img/head-bg.png) no-repeat center center;
+	background-size:100% auto;
+}
+#order-cloud_slider .includes-container .head-area span {
+	padding:0 20px;
+	margin:0 0 0 0;
+	display:inline-table;
+	background:#ffffff;
+}
+#order-cloud_slider .includes-container ul.list-contents {
+	padding:20px 0 0 0;
+	margin:0 0 0 0;
+	list-style:none;
+}
+#order-cloud_slider .includes-container ul.list-contents li {
+	padding:0 0 0 22px;
+	margin:5px 0;
+	width:33%;
+	display:inline-table;
+	background:url(../img/tick.png) no-repeat;
+}
+
+
+/* Features Content */
+
+#order-cloud_slider .plans-full-main h3 {
+	font-weight:normal;
+	color:#52606c;
+}
+#order-cloud_slider .plans-full-main h4 {
+}
+#order-cloud_slider .plans-full-main p {
+	padding:0 0 0 0;
+	margin:10px 0 20px 0;
+}
+#order-cloud_slider .price-features-container {
+	padding:0 40px;
+	line-height:23px;
+}
+#order-cloud_slider .feature-container {
+	padding:40px 0;
+}
+#order-cloud_slider .feature-container .left-img {
+	margin:0 20px 0 0;
+	float:left;
+	min-height:200px;
+}
+#order-cloud_slider .feature-container .right-img {
+	margin:0 0 20px 20px;
+	float:right;
+}
+
+/* Media Query */
+
+@media (max-width: 991px) { /* This media query is written for Ipad and tablets */
+    #order-cloud_slider .includes-container ul.list-contents li {
+        width:48%;
+    }
+    #order-cloud_slider .heading-with-cloud .images-container img {
+        width:100%;
+    }
+    #order-cloud_slider .price-calc-top .price-cont {
+        padding:30px 0 0 0;
+    }
+    #order-cloud_slider .irs-with-grid {
+        margin-left:0;
+    }
+}
+
+@media (max-width: 768px) { /* This media query is written for Mobile landscape and Ipad and tablets portrait */
+    #order-cloud_slider .feature-container .left-img,
+    #order-cloud_slider .feature-container .right-img {
+        margin:0 0 20px 0;
+        width:100%;
+        text-align:center;
+    }
+    #order-cloud_slider .feature-container {
+        text-align:center;
+    }
+    #order-cloud_slider .heading-with-cloud .texts-container {
+        font-size:48px;
+    }
+}
+
+@media (max-width: 480px) { /* This media query is written for Mobile only */
+    #order-cloud_slider .includes-container ul.list-contents li {
+        width:100%;
+    }
+    #order-cloud_slider .feature-container .left-img img, .feature-container .right-img img {
+        width:100%;
+    }
+    #order-cloud_slider .heading-with-cloud .texts-container {
+        font-size:24px;
+    }
+}
+
+/* Sidebar */
+
+html, body {
+    overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+.row-product-selection {
+    position: relative;
+    left: 0;
+    -webkit-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+}
+
+.product-selection-sidebar {
+    position: absolute;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    display: none;
+}
+
+#btnShowSidebar {
+    margin: -10px 0 0 20px;
+}

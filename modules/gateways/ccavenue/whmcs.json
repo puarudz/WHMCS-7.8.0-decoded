@@ -1,0 +1,20 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "ccavenue",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "CCAvenue V1",
+    "tagline": "A 3rd party payment gateway. We recommend using the V2 module."
+  },
+  "support": {
+    "docs_url": "https:\/\/docs.whmcs.com\/CC_Avenue"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

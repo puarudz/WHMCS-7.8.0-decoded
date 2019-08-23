@@ -1,0 +1,23 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "worldpayinvisiblexml",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "WorldPay Invisible XML",
+    "tagline": "A merchant gateway solution from WorldPay"
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "docs_url": "https:\/\/docs.whmcs.com\/WorldPay"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

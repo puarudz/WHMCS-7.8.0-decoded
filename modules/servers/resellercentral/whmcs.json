@@ -1,0 +1,21 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-servers",
+  "name": "resellercentral",
+  "license": "proprietary",
+  "category": "provisioning",
+  "description": {
+    "name": "Reseller Central",
+    "tagline": "A custom reseller platform for the HostNine web hosting brand.",
+    "long": ""
+  },
+  "support": {
+    "docs_url": "https://docs.whmcs.com/Reseller_Central"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

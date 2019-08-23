@@ -1,0 +1,60 @@
+<!--
+Customize your client area display here.
+
+Valid element IDs include:
+
+centovacast_hostname, centovacast_servertype, centovacast_sourcetype, centovacast_serverstate, centovacast_sourcestate,
+centovacast_ipaddress, centovacast_port, centovacast_username, centovacast_maxclients, centovacast_transferlimit,
+centovacast_diskquota, centovacast_mountlimit, centovacast_channels, centovacast_samplerate, centovacast_crossfade,
+centovacast_maxbitrate, centovacast_url, centovacast_title, centovacast_email, centovacast_organization,
+centovacast_cachedtransfer, centovacast_cacheddiskusage, centovacast_status
+-->
+<div id="centovacast_details" style="display: none">
+    <div class="col2half">
+        <h4>Server host:</h4> <span id="centovacast_hostname"></span>
+    </div>
+    <div class="col2half">
+        <h4>Server port:</h4> <span id="centovacast_port"></span>
+    </div>
+    <div class="col2half">
+        <h4>Server type:</h4> <span id="centovacast_servertype"></span>
+    </div>
+    <div class="col2half">
+        <h4>AutoDJ type:</h4> <span id="centovacast_sourcetype"></span>
+    </div>
+    <div class="col2half">
+        <h4>Server status:</h4> <span id="centovacast_serverstate"></span>
+    </div>
+    <div class="col2half">
+        <h4>AutoDJ status:</h4> <span id="centovacast_sourcestate"></span>
+    </div>
+</div>
+<div class="clear"></div>
+
+<!-- don't modify anything below this line -->
+<script language="javascript">
+if (jQuery !== undefined) {
+	jQuery(document).ready(function($) {
+        $.ajax({
+            url: "[CCURL]/external/rpc.php?callback=?",
+            dataType: "jsonp",
+            data: {
+                m: "accountinfo.get",
+                j: 1,
+                jq: 1,
+                username: "[USERNAME]",
+                time: [TIME],
+                auth: "[AUTH]"
+            },
+            success: function(json){
+                if (json.type=="result") {
+                    for (f in json.data[0]) {
+                        $("#centovacast_"+f).text(json.data[0][f]);
+                    }
+                    $("#centovacast_details").show();
+                }
+            }
+        });
+    });
+}
+</script>

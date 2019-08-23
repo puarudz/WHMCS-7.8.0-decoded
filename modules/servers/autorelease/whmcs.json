@@ -1,0 +1,24 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-servers",
+  "name": "autorelease",
+  "license": "proprietary",
+  "category": "provisioning",
+  "description": {
+    "name": "Auto Release",
+    "tagline": "Used for triggering automation without a remote API.",
+    "long": "This module can be used to trigger hooks and other automation when no module exists for the product.\n\nThis module supports the following actions at provisioning time:\n\n* Create a To-Do item for manual follow-up\n* Generate a Support Ticket\n* Perform no automated actions\n\nIn all cases, in addition to the itemised action, it will allow other automation hooks to execute."
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "docs_url": "https:\/\/docs.whmcs.com\/Auto_Release"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

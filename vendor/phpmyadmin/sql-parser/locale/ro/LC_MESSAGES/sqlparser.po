@@ -1,0 +1,241 @@
+# Automatically generated <>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: SQL parser 0\n"
+"Report-Msgid-Bugs-To: translators@phpmyadmin.net\n"
+"POT-Creation-Date: 2017-08-21 12:54+0200\n"
+"PO-Revision-Date: 2017-05-25 11:13+0000\n"
+"Last-Translator: Codrin <codrin@logicindustry.com>\n"
+"Language-Team: Romanian <https://hosted.weblate.org/projects/phpmyadmin/sql-"
+"parser/ro/>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Weblate 2.14.1\n"
+
+#: src/Component.php:43 src/Component.php:63
+msgid "Not implemented yet."
+msgstr "Nu este inca implementat."
+
+#: src/Components/AlterOperation.php:241 src/Statement.php:334
+msgid ""
+"A new statement was found, but no delimiter between it and the previous one."
+msgstr ""
+"O nouă operațiune a fost găsită, dar nu exista niciun delimitator între "
+"aceasta și cea anterioară."
+
+#: src/Components/AlterOperation.php:253
+msgid "Unrecognized alter operation."
+msgstr "Operațiune de alterare necunoscută."
+
+#: src/Components/Array2d.php:88
+#, php-format
+msgid "%1$d values were expected, but found %2$d."
+msgstr "Au fost gasite %2$d valori desi erau asteptate %1$d."
+
+#: src/Components/Array2d.php:111
+msgid "An opening bracket followed by a set of values was expected."
+msgstr "Erau de așteptat o paranteză deschisă urmată de o serie de valori."
+
+#: src/Components/ArrayObj.php:114 src/Components/CreateDefinition.php:201
+msgid "An opening bracket was expected."
+msgstr "O paranteza deschisa este necesara."
+
+#: src/Components/CaseExpression.php:135 src/Components/CaseExpression.php:164
+#: src/Components/CaseExpression.php:176 src/Components/CaseExpression.php:190
+#: src/Statements/DeleteStatement.php:227
+#: src/Statements/DeleteStatement.php:244
+#: src/Statements/DeleteStatement.php:292
+#: src/Statements/DeleteStatement.php:303
+#: src/Statements/DeleteStatement.php:333
+#: src/Statements/DeleteStatement.php:344
+#: src/Statements/InsertStatement.php:189
+#: src/Statements/InsertStatement.php:217 src/Statements/LoadStatement.php:258
+#: src/Statements/ReplaceStatement.php:155
+#: src/Statements/ReplaceStatement.php:182
+msgid "Unexpected keyword."
+msgstr "Cuvinte cheie neașteptate."
+
+#: src/Components/CaseExpression.php:199
+msgid "Unexpected end of CASE expression"
+msgstr "Sirsit neasteptat al expresiei \"CASE\""
+
+#: src/Components/CreateDefinition.php:223
+msgid ""
+"A symbol name was expected! A reserved keyword can not be used as a column "
+"name without backquotes."
+msgstr ""
+"Un nume de simbol era de așteptat! Un cuvânt cheie rezervat nu poate fi "
+"utilizat ca nume de coloană daca nu este incadrat in ghilimele."
+
+#: src/Components/CreateDefinition.php:237
+msgid "A symbol name was expected!"
+msgstr "Un nume de simbol era de așteptat!"
+
+#: src/Components/CreateDefinition.php:270
+msgid "A comma or a closing bracket was expected."
+msgstr "Erau de așteptat o virgulă sau o paranteză închisă."
+
+#: src/Components/CreateDefinition.php:286
+msgid "A closing bracket was expected."
+msgstr "O paranteza inchisa este necesara."
+
+#: src/Components/DataType.php:123
+msgid "Unrecognized data type."
+msgstr "Tip de date nerecunoscut."
+
+#: src/Components/Expression.php:244 src/Components/Expression.php:394
+msgid "An alias was expected."
+msgstr "Un alias era asteptat."
+
+#: src/Components/Expression.php:332 src/Components/Expression.php:351
+#: src/Components/Expression.php:383
+msgid "An alias was previously found."
+msgstr "Un alias a fost deja gasit."
+
+#: src/Components/Expression.php:364
+msgid "Unexpected dot."
+msgstr "Caracterul punct(.) nu era asteptat."
+
+#: src/Components/ExpressionArray.php:102
+msgid "An expression was expected."
+msgstr "Era asteptata o expresie."
+
+#: src/Components/Limit.php:86 src/Components/Limit.php:108
+msgid "An offset was expected."
+msgstr "O deplasare(offset) era asteptata."
+
+#: src/Components/OptionsArray.php:143
+#, php-format
+msgid "This option conflicts with \"%1$s\"."
+msgstr "Aceasta optiune intra in conflict cu \"%1$s\"."
+
+#: src/Components/RenameOperation.php:109
+msgid "The old name of the table was expected."
+msgstr "Numele vechi al tabelului este cerut."
+
+#: src/Components/RenameOperation.php:119
+msgid "Keyword \"TO\" was expected."
+msgstr "Cuvantul cheie \"TO\" este cerut."
+
+#: src/Components/RenameOperation.php:135
+msgid "The new name of the table was expected."
+msgstr "Numele nou al tabelului este cerut."
+
+#: src/Components/RenameOperation.php:153
+msgid "A rename operation was expected."
+msgstr "Este asteptata o operatiune de redenumire (rename)."
+
+#: src/Components/SetOperation.php:117
+msgid "Missing expression."
+msgstr "Expresie lipsa."
+
+#: src/Lexer.php:237
+msgid "Unexpected character."
+msgstr "Caracter neasteptat."
+
+#: src/Lexer.php:278
+msgid "Expected whitespace(s) before delimiter."
+msgstr "Se cer spatii (whitespace) inainte de delimitator."
+
+#: src/Lexer.php:296 src/Lexer.php:314
+msgid "Expected delimiter."
+msgstr "Se asteapta delimitator."
+
+#: src/Lexer.php:843
+#, fuzzy, php-format
+#| msgid "Event %1$s has been created."
+msgid "Ending quote %1$s was expected."
+msgstr "Evenimentul %1$s a fost creat."
+
+#: src/Lexer.php:884
+#, fuzzy
+#| msgid "Table name template"
+msgid "Variable name was expected."
+msgstr "Șablon nume tabel"
+
+#: src/Parser.php:423
+#, fuzzy
+#| msgid "At Beginning of Table"
+msgid "Unexpected beginning of statement."
+msgstr "La începutul tabelului"
+
+#: src/Parser.php:442
+msgid "Unrecognized statement type."
+msgstr ""
+
+#: src/Parser.php:527
+msgid "No transaction was previously started."
+msgstr ""
+
+#: src/Statement.php:242 src/Statements/DeleteStatement.php:254
+#: src/Statements/DeleteStatement.php:306
+#: src/Statements/InsertStatement.php:226
+#: src/Statements/InsertStatement.php:246 src/Statements/LoadStatement.php:261
+#: src/Statements/LoadStatement.php:291 src/Statements/LoadStatement.php:310
+#: src/Statements/ReplaceStatement.php:190
+#, fuzzy
+#| msgid "Unexpected characters on line %s."
+msgid "Unexpected token."
+msgstr "Caractere neaşteptate pe linia %s."
+
+#: src/Statement.php:306
+msgid "This type of clause was previously parsed."
+msgstr ""
+
+#: src/Statement.php:366
+msgid "Unrecognized keyword."
+msgstr ""
+
+#: src/Statement.php:377
+#, fuzzy
+#| msgid "At Beginning of Table"
+msgid "Keyword at end of statement."
+msgstr "La începutul tabelului"
+
+#: src/Statement.php:503
+#, fuzzy
+#| msgid "At Beginning of Table"
+msgid "Unexpected ordering of clauses."
+msgstr "La începutul tabelului"
+
+#: src/Statements/CreateStatement.php:375
+#, fuzzy
+#| msgid "The number of tables that are open."
+msgid "The name of the entity was expected."
+msgstr "Numărul de tabele ce sînt deschise."
+
+#: src/Statements/CreateStatement.php:430
+#, fuzzy
+#| msgid "Table name template"
+msgid "A table name was expected."
+msgstr "Șablon nume tabel"
+
+#: src/Statements/CreateStatement.php:438
+#, fuzzy
+#| msgid "The row has been deleted."
+msgid "At least one column definition was expected."
+msgstr "Înregistrarea a fost ștearsă."
+
+#: src/Statements/CreateStatement.php:550
+msgid "A \"RETURNS\" keyword was expected."
+msgstr ""
+
+#: src/Statements/DeleteStatement.php:314
+msgid "This type of clause is not valid in Multi-table queries."
+msgstr ""
+
+#: tests/Lexer/LexerTest.php:19 tests/Parser/ParserTest.php:58
+#, fuzzy
+#| msgid "Error"
+msgid "error #1"
+msgstr "Eroare"
+
+#: tests/Lexer/LexerTest.php:46 tests/Parser/ParserTest.php:80
+#, fuzzy
+#| msgid "Gather errors"
+msgid "strict error"
+msgstr "Strânge erorile"

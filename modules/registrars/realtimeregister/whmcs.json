@@ -1,0 +1,23 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-registrars",
+  "name": "realtimeregister",
+  "license": "proprietary",
+  "category": "domains",
+  "description": {
+    "name": "Realtime Register",
+    "tagline": "A domain whosesale reseller provider."
+  },
+  "logo": {
+    "filename": "logo.gif"
+  },
+  "support": {
+    "docs": "https:\/\/docs.whmcs.com\/Realtime_Register"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-registrars",
+  "name": "bizcn",
+  "license": "proprietary",
+  "category": "domains",
+  "description": {
+    "name": "BizCN",
+    "tagline": "A China based popular domains wholesale provider."
+  },
+  "logo": {
+    "filename": "logo.gif"
+  },
+  "support": {
+    "homepage": "https:\/\/www.bizcn.com\/"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

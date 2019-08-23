@@ -1,0 +1,21 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "planetauthorize",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "PlanetAuthorize",
+    "tagline": "A module that can be used with any Auth.net compatible service.",
+    "long": "Allows you to enter the endpoint for processing enabling you to process credit card payments online with any Authorize.net compatible API gateway."
+  },
+  "support": {
+    "docs_url": "https:\/\/docs.whmcs.com\/Planet_Authorize"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

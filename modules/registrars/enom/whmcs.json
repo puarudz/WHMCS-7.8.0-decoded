@@ -1,0 +1,32 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-registrars",
+  "name": "enom",
+  "license": "proprietary",
+  "category": "domains",
+  "description": {
+    "name": "Enom",
+    "tagline": "A leading reseller domain registrar supporting over 20 million domains.",
+    "long": "## Apply for an account\nWHMCS users get exclusive access to signup with no setup fees and preferential pricing. [Learn more and signup &raquo;](https://www.whmcs.com/free-domain-reseller-account/?utm_source=in_product&utm_medium=apps)",
+    "features": [
+      "Automated Domain Registrations, Transfers & Renewals",
+      "Ability to View/Change Nameservers & WHOIS Info",
+      "Domain Locking, ID Protection, EPP Code Retrieval",
+      "DNS Host Record Management, Email Forwarding & Private Nameservers",
+      "Reliable, Rock solid API"
+    ]
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https:\/\/www.enom.com\/",
+    "docs_url": "https:\/\/docs.whmcs.com\/Enom"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

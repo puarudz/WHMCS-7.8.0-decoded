@@ -1,0 +1,23 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-registrars",
+  "name": "email",
+  "license": "proprietary",
+  "category": "domains",
+  "description": {
+    "name": "Email",
+    "tagline": "For use with registrars without an API or integration."
+  },
+  "logo": {
+    "filename": "logo.gif"
+  },
+  "support": {
+    "docs_url": "https:\/\/docs.whmcs.com\/Email"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

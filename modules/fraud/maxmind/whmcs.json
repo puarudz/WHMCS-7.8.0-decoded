@@ -1,0 +1,31 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-fraud",
+  "name": "maxmind",
+  "license": "proprietary",
+  "category": "orders",
+  "description": {
+    "name": "MaxMind",
+    "tagline": "Detect Online Fraud and Locate Online Visitors.",
+    "long": "Prevent online fraud, cut chargebacks, and reduce manual review using MaxMind's services.",
+    "features": [
+       "Simplify order review with detailed user insights",
+       "Supports real-time risk scoring and contextual and reputational data",
+       "Build rules and feed your risk models with over 50 data points",
+       "Support for minFraud Score, Insights and Factors"
+    ]
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https:\/\/www.maxmind.com\/",
+    "docs_url": "https:\/\/docs.whmcs.com\/MaxMind"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

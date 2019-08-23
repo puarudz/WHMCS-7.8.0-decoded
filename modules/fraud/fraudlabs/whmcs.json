@@ -1,0 +1,30 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-fraud",
+  "name": "fraudlabs",
+  "license": "proprietary",
+  "category": "orders",
+  "description": {
+    "name": "FraudLabs Pro",
+    "tagline": "Fraud detection to prevent fraud and minimize chargebacks.",
+    "long": "FraudLabs Pro provides sophisticated fraud detection solution helping merchants to prevent payment fraud and minimize chargeback & losses.\n\nFraudLabs Pro performs a fraud validation using data attributes including geolocation, proxy, email, credit card, transaction velocity and others to calculate a risk score and provide detailed insights to aide with manual review.",
+    "features": [
+      "Automatically screen and block orders before fraudulent transactions occur",
+      "Detailed insights allow you to make informed decisions when reviewing orders manually",
+      "Support for rules allows tailoring order blocks"
+    ]
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https:\/\/www.fraudlabspro.com\/",
+    "docs_url": "https:\/\/docs.whmcs.com\/FraudLabs_Pro"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

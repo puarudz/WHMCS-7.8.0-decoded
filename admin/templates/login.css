@@ -1,0 +1,140 @@
+/*
+ * Admin Login Page Stylesheet
+ *
+ * @author    WHMCS Limited <development@whmcs.com>
+ * @copyright Copyright (c) WHMCS Limited 2005-2016
+ * @license   http://www.whmcs.com/license/
+ */
+
+body {
+    background-color: #1A4D80;
+}
+
+body,
+input,
+button,
+select,
+textarea,
+h1,
+h2 {
+  font-family: "Open Sans", Verdana, Tahoma, serif;
+  color: #333;
+}
+
+.logo {
+    margin: 25px 0;
+    text-align: center;
+}
+
+.login-container {
+    margin: 0 auto;
+    padding: 0 25px;
+    max-width: 450px;
+}
+
+.login-body {
+    margin: 0;
+    padding: 45px 45px 50px 45px;
+    background-color: #fff;
+    border-radius: 4px 4px 0 0;
+}
+
+.language-chooser {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-align: center;
+}
+
+@media (max-width:767px) {
+    .login-container {
+        margin: 25px auto !important;
+        padding: 0 25px;
+    }
+
+    .login-body {
+        margin: 0;
+        padding: 25px 25px 30px 25px;
+    }
+
+    .logo img {
+        width: 200px;
+    }
+
+    .language-chooser {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+    .language-chooser .btn-group {
+        float: none!important;
+    }
+}
+
+.login-body h2 {
+    margin: 0 0 15px 0;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.login-body .checkbox {
+    margin-top: 4px;
+    margin-bottom: 16px;
+}
+
+.footer {
+    margin: 0;
+    padding: 0;
+}
+
+.footer a {
+    display: block;
+    margin: 0;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 0 0 4px 4px;
+    color: #666;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer span {
+    display: block;
+    margin: 0;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 0 0 4px 4px;
+    color: #666;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    background-color: #ddd;
+}
+
+input.no-radius {
+    border-radius: 0;
+    box-shadow: none;
+    outline-width: 0;
+}
+
+.poweredby {
+    margin: 20px 0;
+    padding: 0;
+}
+.poweredby a {
+    font-size: 0.8em;
+    color: #fff;
+}
+
+.captchaimage {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.captcha-container > .row {
+    margin-right: 0;
+    margin-left: 0;
+}

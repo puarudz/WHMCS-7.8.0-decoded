@@ -1,0 +1,22 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-registrars",
+  "name": "stargate",
+  "license": "proprietary",
+  "category": "domains",
+  "description": {
+    "name": "Stargate"
+  },
+  "logo": {
+    "filename": "logo.gif"
+  },
+  "support": {
+    "docs_url": "https:\/\/docs.whmcs.com\/Stargate"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

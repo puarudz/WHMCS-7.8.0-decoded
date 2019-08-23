@@ -1,0 +1,17 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "banktransfer",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "Bank Transfer",
+    "tagline": "Accept payments offline providing bank/wire transfer instructions."
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

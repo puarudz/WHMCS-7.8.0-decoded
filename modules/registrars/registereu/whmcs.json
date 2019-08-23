@@ -1,0 +1,22 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-registrars",
+  "name": "registereu",
+  "license": "proprietary",
+  "category": "domains",
+  "description": {
+    "name": "Register.eu"
+  },
+  "logo": {
+    "filename": "logo.gif"
+  },
+  "support": {
+    "docs_url": "https:\/\/docs.whmcs.com\/Registereu"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

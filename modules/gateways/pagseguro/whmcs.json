@@ -1,0 +1,20 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "pagseguro",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "PagSeguro",
+    "tagline": "A third party payment gateway."
+  },
+  "support": {
+    "docs_url": "https:\/\/docs.whmcs.com\/PagSeguro"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

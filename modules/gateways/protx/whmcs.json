@@ -1,0 +1,20 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "protx",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "SagePay",
+    "tagline": "UK based third party gateway formerly known as ProtX."
+  },
+  "support": {
+    "docs_url": "https:\/\/docs.whmcs.com\/SagePay"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

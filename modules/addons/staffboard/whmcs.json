@@ -1,0 +1,26 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-addons",
+  "name": "staffboard",
+  "version": "1.1",
+  "license": "proprietary",
+  "category": "utilities",
+  "description": {
+    "name": "Noticeboard",
+    "tagline": "A utility for providing notices to your staff members",
+    "long": "Post messages and notices for other staff members to see using a drag and drop noticeboard style interface.",
+    "features": [
+      "Drag and drop interface",
+      "Support for colored notices"
+    ]
+  },
+  "support": {
+    "support_url": "https:\/\/www.whmcs.com\/support"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

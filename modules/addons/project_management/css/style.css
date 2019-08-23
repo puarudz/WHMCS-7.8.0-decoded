@@ -1,0 +1,99 @@
+div.projectmanagement div.title {
+    margin-bottom: 14px;
+    font-family: 'Trebuchet MS',Tahoma;
+    font-size: 24px;
+    color: #000;
+}
+
+div.projectmanagement div#createnewcont {
+    display: none;
+    position: absolute;
+    top: 250px;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+div.projectmanagement div.createnewcont2 {
+    margin: 0 auto;
+    padding: 0;
+    width: 570px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+div.projectmanagement div.createnewproject {
+    margin: 0 auto;
+    padding: 40px;
+    width: 570px;
+    background-color: #fff;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+}
+
+div.leftCol {
+    padding-right: 6px;
+}
+
+div.rightCol {
+    padding-left: 6px;
+}
+
+div.projectmanagement div.createnewproject div.float {
+    float: left;
+    width: 50%;
+}
+
+div.projectmanagement div.createnewproject div.label {
+    margin: 5px 0;
+    padding: 4px;
+    background-color: #fff;
+    border: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+    text-transform: none;
+}
+
+div.projectmanagement td.sortcol {
+    width: 2px;
+    background-color: #efefef;
+    cursor: move;
+}
+div.projectmanagement .tDnD_whileDrag td {
+    background-color: #efefef;
+}
+
+div.projectmanagement #cpticketclientsearchresults {
+    position: absolute;
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 3px;
+    margin: 0 10px 0 0;
+    display: none;
+    white-space: nowrap;
+    font-size: 11px;
+    font-family: Tahoma;
+}
+div.projectmanagement #cpticketclientsearchresults .searchresultheader {
+    background-color:#ccc;
+    padding:2px;
+    font-weight:bold;
+    text-align:center;
+}
+div.projectmanagement #cpticketclientsearchresults .searchresult {
+    background-color:#f4f4f4;
+    border-top: 3px solid #fff;
+    padding: 2px 0 2px 5px;
+}
+div.projectmanagement #cpticketclientsearchresults .searchresult .desc {
+    color: #888;
+}
+div.projectmanagement #cpticketclientsearchresults .searchresult:hover {
+    background-color: #fff;
+}
+div.projectmanagement #cpticketclientsearchresults .searchresult a {
+    text-decoration: none;
+    display: block;
+}

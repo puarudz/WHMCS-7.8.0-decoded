@@ -1,0 +1,23 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "worldpayfuturepay",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "WorldPay FuturePay",
+    "tagline": "A tokenised merchant gateway solution from WorldPay"
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "docs_url": "https:\/\/docs.whmcs.com\/WorldPay#FuturePay_Specific_Items"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

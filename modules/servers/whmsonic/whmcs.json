@@ -1,0 +1,21 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-servers",
+  "name": "whmsonic",
+  "license": "proprietary",
+  "category": "provisioning",
+  "description": {
+    "name": "WHMSonic",
+    "tagline": "WHMSonic is a cPanel/WHM plugin for offering Shoutcast hosting.",
+    "long": ""
+  },
+  "support": {
+    "docs_url": "https://docs.whmcs.com/WHMSonic"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

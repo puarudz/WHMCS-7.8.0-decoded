@@ -1,0 +1,21 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-servers",
+  "name": "gamecp",
+  "license": "proprietary",
+  "category": "provisioning",
+  "description": {
+    "name": "GameCP",
+    "tagline": "A game server hosting control panel for game & voice servers.",
+    "long": ""
+  },
+  "support": {
+    "docs_url": "https://docs.whmcs.com/GameCP"
+  },
+  "authors": [
+    {
+      "name": "GameCP",
+      "homepage": "https:\/\/www.gamecp.com\/"
+    }
+  ]
+}

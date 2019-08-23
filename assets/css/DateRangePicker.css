@@ -1,0 +1,58 @@
+.date-picker-single,
+.date-picker-single-no-range,
+.datepick,
+.date-picker {
+    max-width: 135px;
+}
+
+.date-picker-single.time,
+.date-picker-single-no-range.time {
+    max-width: 170px;
+}
+
+.date-picker-search {
+    max-width: 215px;
+}
+
+.date-picker-search-100pc {
+    max-width: 100%;
+}
+
+.form-group.date-picker-prepend-icon {
+    top: 0;
+    left: 0;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: 100%;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+.date-picker-prepend-icon .date-picker-search,
+.date-picker-prepend-icon .date-picker-single,
+.date-picker-prepend-icon .date-picker-single-no-range {
+    padding-left: 38px;
+}
+.date-picker-prepend-icon .field-icon i {
+    position: relative;
+    font-size: 14px;
+}
+.date-picker-prepend-icon .field-icon {
+    top: 0;
+    z-index: 4;
+    width: 42px;
+    height: 36px;
+    color: inherit;
+    line-height: 36px;
+    position: absolute;
+    text-align: center;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    pointer-events: none;
+}
+.date-picker-field-icon i {
+    color: #bbb;
+}

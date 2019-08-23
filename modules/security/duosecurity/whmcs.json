@@ -1,0 +1,30 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-security",
+  "name": "duosecurity",
+  "license": "proprietary",
+  "category": "security",
+  "description": {
+    "name": "DuoSecurity",
+    "tagline": "A cloud-based two-factor authentication service provider.",
+    "long": "DuoSecurity allows you to add Two-Factor Authentication for clients and/or administrative users.\n\nWith Two-Factor Authentication, upon login, users are prompted to enter a second factor - typically a 6 digit code. With DuoSecurity, this is simplified even further with the facility to get push notifications to a mobile device with a simple Accept or Decline action.",
+    "features": [
+      "Two-Factor Authentication for Clients and Admin Users",
+      "Second factor by push notifications, SMS or code entry",
+      "Free for up to 10 users"
+    ]
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https:\/\/www.duo.com\/",
+    "docs_url": "https:\/\/docs.whmcs.com\/DuoSecurity"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

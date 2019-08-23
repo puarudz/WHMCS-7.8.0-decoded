@@ -1,0 +1,20 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "stripe",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "Stripe",
+    "tagline": "A popular secure tokenised credit card merchant solution."
+  },
+  "support": {
+    "docs_url": "https:\/\/docs.whmcs.com\/Stripe"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

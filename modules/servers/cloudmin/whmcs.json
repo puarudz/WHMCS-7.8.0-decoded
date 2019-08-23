@@ -1,0 +1,21 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-servers",
+  "name": "cloudmin",
+  "license": "proprietary",
+  "category": "vpscloud",
+  "description": {
+    "name": "Cloudmin",
+    "tagline": "Webmin's Xen, KVM and OpenVM management platform.",
+    "long": ""
+  },
+  "support": {
+    "docs_url": "https://docs.whmcs.com/Cloudmin"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

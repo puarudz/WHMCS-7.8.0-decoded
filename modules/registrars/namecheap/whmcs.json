@@ -1,0 +1,25 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-registrars",
+  "name": "namecheap",
+  "license": "proprietary",
+  "category": "domains",
+  "description": {
+    "name": "NameCheap",
+    "tagline": "A leading ICANN-accredited registrar and domain resale provider.",
+    "long": ""
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https:\/\/www.namecheap.com\/",
+    "docs_url": "https:\/\/docs.whmcs.com\/NameCheap"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

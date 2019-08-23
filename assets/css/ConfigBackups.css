@@ -1,0 +1,11 @@
+.database-backups .panel-group .panel-title .label {
+    float: right;
+    padding: 4px 8px;
+    text-transform: initial;
+}
+
+.database-backups .alert-default {
+    color: #fff;
+    background-color: #c9c9c9;
+    border-color: #f9f9f9;
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-servers",
+  "name": "helm",
+  "license": "proprietary",
+  "category": "provisioning",
+  "description": {
+    "name": "Helm",
+    "tagline": "Helm is a Microsoft windows control panel solution for web hosting.",
+    "long": ""
+  },
+  "support": {
+    "docs_url": "https://docs.whmcs.com/Helm_3"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

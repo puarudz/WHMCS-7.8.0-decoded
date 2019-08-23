@@ -1,0 +1,31 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "skrill",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "Skrill 1-Tap",
+    "tagline": "Accept payments online supporting a wide range of industries.",
+    "long": "Skrill's payment network provides more than 100 payment options, with 40 currencies covering 200 countries and territories.\n\n[Click to learn more and signup](http://go.whmcs.com/558/skrill-signup)",
+    "features": [
+      "Accept all major credit cards directly on your site",
+      "Quick and easy integration",
+      "Highest security standards",
+      "Integrated risk management"
+    ]
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https:\/\/go.whmcs.com\/558\/skrill-signup",
+    "docs_url": "https:\/\/docs.whmcs.com\/Skrill"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

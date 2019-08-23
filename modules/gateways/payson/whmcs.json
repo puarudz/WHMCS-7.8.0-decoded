@@ -1,0 +1,20 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "payson",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "Payson",
+    "tagline": "A third party payment processing gateway."
+  },
+  "support": {
+    "docs_url": "https:\/\/docs.whmcs.com\/Payson"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

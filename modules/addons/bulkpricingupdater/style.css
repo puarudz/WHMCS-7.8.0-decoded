@@ -1,0 +1,104 @@
+.bulkpricingupdater-steps {
+    margin: 20px auto 20px;
+    padding: 0;
+    width: 685px;
+}
+.bulkpricingupdater-steps div {
+    position: relative;
+    display: block;
+    float: left;
+    padding: 10px 40px 10px 13px;
+    background-color: #eee;
+    width: auto;
+    height: 44px;
+    font-size: 16px;
+    color: #222;
+}
+.bulkpricingupdater-steps div:before {
+    width: 0;
+    height: 0;
+    border-top: 22px solid #eee;
+    border-bottom: 22px solid #eee;
+    border-left:22px solid transparent;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: -22px;
+}
+.bulkpricingupdater-steps div:after {
+    width: 0;
+    height: 0;
+    border-top: 22px solid transparent;
+    border-bottom: 22px solid transparent;
+    border-left:22px solid #eee;
+    position: absolute;
+    content: "";
+    top: 0;
+    right: -22px;
+}
+.bulkpricingupdater-steps div:first-child:before {
+    border: 0;
+}
+.bulkpricingupdater-steps span {
+    padding: 0 0 0 6px;
+    font-size: 12px;
+    color: #888;
+}
+.bulkpricingupdater-steps div.active-step {
+    color:#fff;
+    background-color: #1A4D80;
+}
+.bulkpricingupdater-steps div.active-step:before {
+    border-top: 22px solid #1A4D80;
+    border-bottom: 22px solid #1A4D80;
+}
+.bulkpricingupdater-steps div.active-step:after {
+    border-left: 22px solid #1A4D80;
+}
+.bulkpricingupdater-steps div.active-step span {
+    color: #fff;
+}
+
+.bulkpricingupdater-step-content {
+    margin: 0;
+    padding: 10px 40px;
+}
+.bulkpricingupdater-step-content div {
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+.bulkpricingupdater-step-content div:first-child {
+    display: block;
+}
+
+#bulkpricingupdater-review, #bulkpricingupdater-results {
+    display: block;
+    margin: 30px auto;
+    padding: 30px;
+    width: 50%;
+    min-height: 200px;
+    background-color: #efefef;
+    border: 1px dashed #ccc;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 14px;
+}
+
+#bulkpricingupdater-results {
+    padding: 60px 30px;
+    min-height: 60px;
+    font-size: 18px;
+}
+
+.bulkpricingupdater-results-success {
+    border: 1px dashed #66CC00 !important;
+    background-color: #DDFFC6 !important;
+    color: #009933;
+}
+
+.bulkpricingupdater-results-error {
+    border: 1px dashed #cc0000 !important;
+    background-color:#FFBFBF !important;
+    color:#7F0000;
+}

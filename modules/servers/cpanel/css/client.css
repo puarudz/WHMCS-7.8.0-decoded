@@ -1,0 +1,34 @@
+/**
+ * cPanel Client Area Stylesheet
+ *
+ * @project   WHMCS
+ * @cssdoc    version 1.0-pre
+ * @package   WHMCS
+ * @author    WHMCS Limited <development@whmcs.com>
+ * @copyright Copyright (c) WHMCS Limited 2005-2015
+ * @license   http://www.whmcs.com/license/
+ * @link      http://www.whmcs.com/
+ */
+
+.cpanel-package-details {
+    margin-bottom: 12px;
+}
+
+.cpanel-usage-stats {
+    padding: 17px 15px;
+}
+
+.cpanel-usage-stats .limit-near {
+    margin: 15px 0 5px;
+    font-size: 0.8em;
+}
+
+.cpanel-feature-row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cpanel-feature-row img {
+    display: block;
+    margin: 0 auto 5px auto;
+}

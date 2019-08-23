@@ -1,0 +1,12 @@
+/**
+ * WHMCS Telephone Country Code Dropdown
+ *
+ * Using https://github.com/jackocnr/intl-tel-input
+ *
+ * @copyright Copyright (c) WHMCS Limited 2005-2017
+ * @license http://www.whmcs.com/license/ WHMCS Eula
+ */
+
+.intl-tel-input {
+    width: 100%;
+}

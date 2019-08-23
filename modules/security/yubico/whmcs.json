@@ -1,0 +1,25 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-security",
+  "name": "yubico",
+  "license": "proprietary",
+  "category": "security",
+  "description": {
+    "name": "Yubikey",
+    "tagline": "Second factor authentication via a hardware device.",
+    "long": "Yubikey is a hardware based Two-Factor Authentication device.\n\nWhen plugged into the USB port of any PC, when the capacitive button on the Yubikey is pressed, the device generates and enters a one-time password (OTP) character string.\n\nFor more information, visit the Yubico website."
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https:\/\/www.yubico.com\/",
+    "docs_url": "https:\/\/docs.whmcs.com\/Two-Factor_Authentication#YubiKey"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

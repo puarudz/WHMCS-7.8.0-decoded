@@ -1,0 +1,29 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "gocardless",
+  "category": "payments",
+  "description": {
+    "name": "GoCardless",
+    "tagline": "Accept Direct Debit payments in the UK, Europe, Canada and Australia.",
+    "long": "GoCardless makes it easy to accept payment by direct debit and SEPA. Supporting a range of currencies and over 30 countries, Direct Debit provides a reliable and low cost way to get paid.",
+    "features": [
+      "Automated Direct Debit Creation",
+      "Automated Recurring Billing",
+      "Notification of failed payments"
+    ]
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https:\/\/www.gocardless.com\/",
+    "docs_url": "https:\/\/docs.whmcs.com\/GoCardless"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

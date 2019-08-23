@@ -1,0 +1,25 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-notifications",
+  "name": "hipchat",
+  "license": "proprietary",
+  "category": "notifications",
+  "description": {
+    "name": "HipChat",
+    "tagline": "HipChat is a team collaboration and chat tool.",
+    "long": "HipChat, from Atlassian, was a leading web service for internal private online chat and instant messaging.\n\nIn July 2018, Atlassian announced they would be *discontinuing* HipChat in 2019 and as a result, HipChat is no longer accepting new signups. The recommended alternative for notifications is Slack."
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https:\/\/www.hipchat.com\/",
+    "docs_url": "https:\/\/docs.whmcs.com\/Configuring_Notifications_with_Slack"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

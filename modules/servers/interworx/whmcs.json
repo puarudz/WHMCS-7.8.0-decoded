@@ -1,0 +1,25 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-servers",
+  "name": "interworx",
+  "license": "proprietary",
+  "category": "webhosting",
+  "description": {
+    "name": "InterWorx",
+    "tagline": "A Linux based dedicated server and VPS web hosting control panel."
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https:\/\/www.interworx.com\/",
+    "support_url": "https:\/\/www.interworx.com\/support",
+    "docs_url": "https:\/\/docs.whmcs.com\/InterWorx"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

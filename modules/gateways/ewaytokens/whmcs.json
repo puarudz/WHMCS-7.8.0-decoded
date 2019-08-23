@@ -1,0 +1,23 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "ewaytokens",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "eWAY Rapid 3.1",
+    "tagline": "Accept payments via eWay using their Rapid 3.1 integration."
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "docs_url": "https:\/\/docs.whmcs.com\/EWAY_Rapid_3.1"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

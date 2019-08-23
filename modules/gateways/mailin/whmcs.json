@@ -1,0 +1,17 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "mailin",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "Mail In Payment",
+    "tagline": "Accept payments offline by providing mail-in instructions."
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

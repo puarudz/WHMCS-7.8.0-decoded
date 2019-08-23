@@ -1,0 +1,28 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-servers",
+  "name": "cpanel",
+  "license": "proprietary",
+  "category": "webhosting",
+  "description": {
+    "name": "cPanel & WHM[tm]",
+    "tagline": "The world's most popular web hosting control panel",
+    "short": "cPanel\/WHM is the leading web hosting control panel and is the hosting platform of choice by more web hosts than any other.",
+    "long": "Fully integrated with WHMCS for the best possible experience between web hosting control panel and billing platform.\n\n* Automatic Account Creation\n* Automatic Suspension/Termination/Upgrades\n* Email Account Creation\n* Automated SSL Provisioning & Installation\n* Single Sign-On for one-click transition\n* OpenID Connect Integration\n* WHMCS Connect Integration for easier server administration\n\n[Learn more &raquo;](https://www.whmcs.com/for/cpanel?utm_source=in_product&utm_medium=apps)"
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https:\/\/www.cpanel.com\/",
+    "learn_more": "https:\/\/www.whmcs.com\/for\/cpanel",
+    "support_url": "https:\/\/www.cpanel.com\/support",
+    "docs_url": "https:\/\/docs.whmcs.com\/CPanel\/WHM"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-addons",
+  "name": "project_management",
+  "version": "2.0.5",
+  "license": "proprietary",
+  "category": "productivity",
+  "description": {
+    "name": "Project Management",
+    "tagline": "Track and bill for your projects and time.",
+    "long": "Manage, track and bill for your projects with task management, messaging, file storage and more.",
+    "features": [
+      "Track Projects and Due Dates",
+      "Centralised file storage and sharing",
+      "Internal private messaging system",
+      "Track and bill for your time",
+      "Ticketing system integration"
+    ]
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "marketplace": {
+    "url": "https:\/\/marketplace.whmcs.com\/product\/26"
+  },
+  "support": {
+    "docs_url": "https:\/\/docs.whmcs.com\/Project_Management",
+    "learn_more": "https:\/\/www.whmcs.com\/project-management/"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

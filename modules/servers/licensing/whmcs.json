@@ -1,0 +1,30 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-servers",
+  "name": "licensing",
+  "license": "proprietary",
+  "category": "provisioning",
+  "description": {
+    "name": "Software Licensing",
+    "tagline": "Securely license and protect your PHP applications",
+    "long": "The Licensing Addon from WHMCS allows Independent Software Vendors (ISVs) to maximise software profitability by:\r\n\r\n* Restricting unauthorised use of your code and applications.\r\n* Ensuring that only licensed customers can use your products and code.\r\n* Ensuring use remain within the terms of your license.\r\n* Allowing you to offer both perpetual and subscription based pricing models for your code.\r\n* Allowing you to suspend or revoke access at any time.\r\n* Allows you to offer time limited trials to on-board new users.\r\n* Enables you to offer add-ons and extras that can unlock additional functionality.\r\n\r\n[Learn more &raquo;](https:\/\/www.whmcs.com\/software-licensing?utm_source=in_product&utm_medium=apps)"
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https:\/\/www.whmcs.com\/software-licensing",
+    "docs_url": "https:\/\/docs.whmcs.com\/Licensing_Addon"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ],
+  "tags": [
+    "licensing",
+    "php",
+    "development"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "quantumgateway",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "Quantum Gateway",
+    "tagline": "A popular merchant credit card processor."
+  },
+  "support": {
+    "docs_url": "https:\/\/docs.whmcs.com\/Quantum_Gateway"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

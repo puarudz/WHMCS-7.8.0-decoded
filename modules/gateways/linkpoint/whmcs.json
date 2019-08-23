@@ -1,0 +1,24 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "linkpoint",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "First Data",
+    "tagline": "A merchant credit card processing gateway.",
+    "long": "Previously known as LinkPoint."
+  },
+  "support": {
+    "docs_url": "https:\/\/docs.whmcs.com\/LinkPoint"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ],
+  "keywords": [
+    "linkpoint"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-addons",
+  "name": "google_analytics",
+  "license": "proprietary",
+  "category": "marketing",
+  "description": {
+    "name": "Google Analytics",
+    "tagline": "Track visitors and conversions with E-Commerce Integration Tracking.",
+    "long": "Ecommerce tracking allows you to measure the number of transactions and revenue your website generates via the Google Analytics platform.\n\nWith the WHMCS Google Analytics integration, WHMCS automatically synchronises order and product data with Google Analytics to enable you to get the most accurate picture possible of the conversion value and results of your marketing campaigns.",
+    "features": [
+      "Automatic Google Analytics E-Commerce Tracking Integration",
+      "Integration of Order, Product and Revenue Data with Google Analytics"
+    ]
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https:\/\/analytics.google.com\/",
+    "docs_url": "https:\/\/docs.whmcs.com\/Google_Analytics"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

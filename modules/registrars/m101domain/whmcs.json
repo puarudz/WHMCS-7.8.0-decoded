@@ -1,0 +1,23 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-registrars",
+  "name": "m101domain",
+  "license": "proprietary",
+  "category": "domains",
+  "description": {
+    "name": "101domain",
+    "tagline": "Specialists in international domain name registration."
+  },
+  "logo": {
+    "filename": "logo.gif"
+  },
+  "support": {
+    "docs_url": "https:\/\/docs.whmcs.com\/OpenSRS"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

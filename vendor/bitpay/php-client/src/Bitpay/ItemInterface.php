@@ -1,0 +1,54 @@
+<?php
+/*
+ * @ PHP 5.6
+ * @ Decoder version : 1.0.0.1
+ * @ Release on : 24.03.2018
+ * @ Website    : http://EasyToYou.eu
+ */
+
+/**
+ * @license Copyright 2011-2014 BitPay Inc., MIT License
+ * see https://github.com/bitpay/php-bitpay-client/blob/master/LICENSE
+ */
+namespace Bitpay;
+
+/**
+ * Item that was sold
+ *
+ * @package Bitpay
+ */
+interface ItemInterface
+{
+    /**
+     * Used to display an item SKU code or part number to the buyer. Maximum string
+     * length is 100 characters.
+     *
+     * @return string
+     */
+    public function getCode();
+    /**
+     * Used to display an item description to the buyer. Maximum string length is 100
+     * characters.
+     *
+     * @return string
+     */
+    public function getDescription();
+    /**
+     * @return float
+     */
+    public function getPrice();
+    /**
+     * @return integer
+     */
+    public function getQuantity();
+    /**
+     * default value: false
+     * ● true: Indicates a physical item will be shipped (or picked up)
+     * ● false: Indicates that nothing is to be shipped for this order
+     *
+     * @return boolean
+     */
+    public function isPhysical();
+}
+
+?>

@@ -1,0 +1,19 @@
+<?php
+/*
+ * @ PHP 5.6
+ * @ Decoder version : 1.0.0.1
+ * @ Release on : 24.03.2018
+ * @ Website    : http://EasyToYou.eu
+ */
+
+use Symfony\Component\DependencyInjection\ContainerBuilder;
+use Symfony\Component\DependencyInjection\Definition;
+require_once __DIR__ . '/../includes/classes.php';
+$container = new ContainerBuilder();
+$container->register('service_from_anonymous_factory', 'Bar\\FooClass')->setFactory(array(new Definition('Bar\\FooClass'), 'getInstance'));
+$anonymousServiceWithFactory = new Definition('Bar\\FooClass');
+$anonymousServiceWithFactory->setFactory('Bar\\FooClass::getInstance');
+$container->register('service_with_method_call_and_factory', 'Bar\\FooClass')->addMethodCall('setBar', array($anonymousServiceWithFactory));
+return $container;
+
+?>

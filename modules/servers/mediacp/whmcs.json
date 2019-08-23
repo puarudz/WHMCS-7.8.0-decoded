@@ -1,0 +1,21 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-servers",
+  "name": "mediacp",
+  "license": "proprietary",
+  "category": "provisioning",
+  "description": {
+    "name": "MediaCP",
+    "tagline": "MediaCP is a streaming platform for internet radio services.",
+    "long": ""
+  },
+  "support": {
+    "docs_url": "https://docs.whmcs.com/MediaCP"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

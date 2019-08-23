@@ -1,0 +1,25 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-registrars",
+  "name": "webnic",
+  "license": "proprietary",
+  "category": "domains",
+  "description": {
+    "name": "WebNIC",
+    "tagline": "A leading ICANN-accredited registrar and domain resale provider.",
+    "long": ""
+  },
+  "logo": {
+    "filename": "logo.gif"
+  },
+  "support": {
+    "homepage": "https:\/\/www.webnic.com\/",
+    "docs_url": "https:\/\/docs.whmcs.com\/WebNIC"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-servers",
+  "name": "resellerclubssl",
+  "license": "proprietary",
+  "category": "digitalservices",
+  "description": {
+    "name": "ResellerClub SSL",
+    "tagline": "Sell SSL Certificates using a ResellerClub reseller account.",
+    "long": ""
+  },
+  "support": {
+    "docs_url": "https://docs.whmcs.com/ResellerClub_SSL"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

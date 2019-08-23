@@ -1,0 +1,28 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-notifications",
+  "name": "email",
+  "license": "proprietary",
+  "category": "notifications",
+  "description": {
+    "name": "Email",
+    "tagline": "Configure rule based notifications delivered by email.",
+    "long": "Setup advanced rule based notifications for events and triggers that matter to you and receive those notifications to one or more email addresses.",
+    "features": [
+      "Setup rule based events and triggers",
+      "Receive notifications by email"
+    ]
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "docs_url": "https:\/\/docs.whmcs.com\/Notifications"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

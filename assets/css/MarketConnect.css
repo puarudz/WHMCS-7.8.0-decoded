@@ -1,0 +1,822 @@
+.market-connect #contentarea {
+    background-color: #f9f9f9;
+}
+.market-connect #contentarea h1 {
+    display: none;
+}
+
+.panel-market-account {
+    width: 300px;
+}
+.panel-market-account .account-linked {
+    padding: 8px 15px;
+    height: 127px;
+    overflow: hidden;
+}
+.panel-market-account .account-not-linked {
+    height: 127px;
+    line-height: 90px;
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+.panel-market-account .info-line {
+    margin-bottom: 8px;
+    font-size: 11px;
+}
+.panel-market-account .linked-to,
+.panel-market-account .auth-error,
+.panel-market-account .connection-error {
+    margin: 8px -16px;
+    padding: 6px 15px;
+    background-color: #eee;
+    color: #333;
+    font-size: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.panel-market-account .auth-error,
+.panel-market-account .connection-error {
+    display: none;
+    background-color: #ff8686;
+    color: #ffe9e9;
+}
+.panel-market-account .auth-error a,
+.panel-market-account .connection-error a {
+    color: #fff;
+    text-decoration: underline;
+}
+.panel-market-account .account-linked {
+    display: none;
+}
+.panel-market-account.account-linked .account-linked {
+    display: block;
+}
+.panel-market-account.account-linked .account-not-linked {
+    display: none;
+}
+
+.marketconnect-logo {
+    max-width: 100%;
+}
+
+.modal-marketconnect-login .modal-dialog {
+    max-width: 485px;
+}
+.modal-marketconnect-login .modal-content {
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: #fff;
+    color: #333;
+}
+.modal-marketconnect-login .modal-header {
+    display: none;
+}
+.modal-marketconnect-login .modal-mc-logo {
+    padding: 30px 0 35px 0;
+    text-align: center;
+}
+.modal-marketconnect-login .modal-mc-logo img {
+    max-width: 80%;
+}
+.modal-marketconnect-login .modal-content a {
+    text-decoration: underline;
+}
+.modal-marketconnect-login p {
+     margin-bottom: 15px;
+}
+.modal-marketconnect-login .alert {
+    border: 0;
+    border-left: 3px solid;
+    border-radius: 0;
+    padding: 10px 15px;
+}
+.modal-marketconnect-login .login-msg {
+    margin: 12px 0 40px 0;
+    text-align: center;
+}
+.modal-marketconnect-login .login-msg a {
+    font-weight: bold;
+    text-decoration: none;
+}
+.modal-marketconnect-login .create-acct-link {
+    margin: 40px 0 30px 0;
+    text-align: center;
+    font-size: 0.95em;
+}
+.modal-marketconnect-login .create-acct-link a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.panel-market-item {
+    text-align: center;
+    font-size: 1.2em;
+    border: 1px solid #f8f8f8;
+    background-color: #fff;
+    font-weight: 300;
+}
+.panel-market-item .panel-body {
+    padding: 45px 50px;
+}
+@media (min-width:1200px) and (max-width: 1400px) {
+    .panel-market-item .panel-body {
+        padding: 45px 35px;
+    }
+}
+
+.panel-market-item .logo {
+    margin-bottom: 30px;
+    background-color: #fff;
+    line-height: 180px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panel-market-item .logo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.panel-market-item p {
+    margin: 20px 0;
+}
+.panel-market-item h3 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 300;
+}
+.panel-market-item h4 {
+    margin: 10px 0 0 0;
+    font-size: 16px;
+    color: #bbb9b9;
+    font-weight: 300;
+}
+.panel-market-item .btn-container {
+    margin: 0 auto;
+    max-width: 400px;
+}
+.panel-market-item .btn {
+    white-space: normal;
+    margin-bottom: 10px;
+}
+
+.btn-inverse {
+    color: #fff;
+    background-color: #666;
+    border-color: #555;
+}
+.btn-inverse:active,
+.btn-inverse:focus,
+.btn-inverse:hover {
+  color: #fff;
+  background-color: #555;
+  border-color: #444;
+}
+
+.modal-mc-service .modal-header,
+.modal-mc-service .modal-footer {
+    display: none;
+}
+.modal-mc-service .modal-content {
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    height: 600px;
+}
+.modal-mc-service .logo {
+    float: left;
+    margin: 0 0 10px 0;
+    height: 100px;
+}
+.modal-mc-service .logo img {
+    max-height: 100%;
+}
+.modal-mc-service .title {
+    float: right;
+    text-align: right;
+    padding: 20px 30px 0;
+}
+.modal-mc-service h3 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 300;
+}
+.modal-mc-service h4 {
+    margin: 10px 0 0 0;
+    font-size: 16px;
+    color: #bbb9b9;
+    font-weight: 300;
+}
+.modal-mc-service .nav-tabs > li:first-child {
+    padding-left: 20px;
+}
+.modal-mc-service .nav-tabs > li:last-child {
+    padding-right: 20px;
+}
+.modal-mc-service .nav-tabs > li:not(.active) > a {
+    padding: 6px 15px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+}
+.modal-mc-service .nav-tabs > li > a.activate {
+    background-color: #beeaa0;
+    color: #5f9234;
+    border: 1px solid #beeaa0;
+    border-bottom: 0;
+}
+.modal-mc-service .nav-tabs > li > a.deactivate {
+    background-color: #ff9898;
+    color: #ffe6e6;
+    border: 1px solid #ff9898;
+    border-bottom: 0;
+}
+.modal-mc-service .nav-tabs > li > a.deactivate:hover {
+    background-color: #e66666;
+    color: #fff;
+}
+.modal-mc-service .nav-tabs > li.active > a {
+    padding: 6px 15px;
+    background-color: #fff;
+}
+.modal-mc-service .content-padded {
+    padding: 30px 30px 0 30px;
+}
+
+.market-connect-apps-container {
+    max-width: 1650px;
+    margin: 0 auto 25px;
+}
+.market-connect-apps-container .btn-block+.btn-block {
+    margin-top: 0;
+}
+
+.modal-marketconnect-splash .modal-content {
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: #ff6820;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 65px;
+}
+.modal-marketconnect-splash ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.redirect-msg {
+    text-align: center;
+    max-width: 600px;
+    padding: 40px;
+    margin: 30px auto;
+    background-color: #fff;
+}
+.redirect-msg a {
+    text-decoration: underline;
+}
+
+.modal-mc-service .activate {
+    padding: 40px;
+}
+
+.modal-mc-service .activate ul {
+    list-style: none;
+    margin: 22px 0;
+    font-size: 1.3em;
+    line-height: 1.8em;
+    font-weight: 300;
+}
+.modal-mc-service .activate ul i {
+    padding-right: 20px;
+}
+.modal-mc-service .activate-btn-container {
+    margin: 40px 0;
+    text-align: right;
+}
+
+.modal-mc-service .btn-activate {
+    padding: 10px 25px;
+    font-size: 17px;
+    width: 190px;
+    height: 45px;
+}
+
+.modal-mc-service .activate a {
+    text-decoration: underline;
+}
+
+.tour-marketconnect {
+    padding: 12px;
+    background-color: #f5f5f5;
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #444;
+    min-width: 335px;
+    border: 0;
+}
+.tour-marketconnect .popover-title {
+    padding-top: 18px;
+    background-color: #f5f5f5;
+    color: #222;
+    font-size: 1.2em;
+    border: 0;
+}
+
+.modal-mc-service ul.products {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ddd;
+    max-height: 375px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.modal-mc-service ul.products li.product {
+    border-bottom: 1px solid #ddd;
+}
+.modal-mc-service ul.products li.product div.content-padded {
+    padding: 10px;
+}
+.modal-mc-service ul.products li.product:last-child {
+    border: 0;
+}
+.modal-mc-service ul.products .toggle-pricing {
+    display: block;
+    text-decoration: none;
+}
+.modal-mc-service ul.products .product-name {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+.modal-mc-service ul.products .btn-manage {
+    border: 0;
+    background-color: #fff;
+    color: #bbb;
+    font-size: 1.5em;
+    padding: 0 10px;
+}
+
+.modal-mc-service .table-pricing th,
+.modal-mc-service .table-pricing td {
+    text-align: center;
+}
+.modal-mc-service .sso-container {
+    padding: 50px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+.modal-mc-service .sso-container .btn-sso-service {
+    font-weight: 300;
+}
+
+.modal-mc-service .promotions {
+    padding: 15px 20px;
+}
+.modal-mc-service .promotions .promo {
+    margin: 0 0 5px 0;
+    padding: 10px 15px;
+    background-color: #f8f8f8;
+}
+.modal-mc-service .promotions .promo h4{
+    margin: 2px 0 6px 0;
+    color: #666;
+}
+.modal-mc-service .promotions .promo p {
+    margin: 0;
+    font-size: 0.9em;
+}
+.modal-mc-service .promotions .bootstrap-switch {
+    float: right;
+}
+
+.modal-mc-service .table-pricing th {
+    border-top: 0;
+}
+.modal-mc-service .table-pricing tr:last-child td {
+    border-bottom: 1px solid #ddd;
+}
+.modal-mc-service .table-pricing {
+    margin-bottom: 10px;
+}
+
+.modal-mc-service .pricing-login-overlay {
+    position: absolute;
+    width: 90%;
+    text-align: center;
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+    font-weight: 300;
+    height: 378px;
+    padding-top: 150px;
+    font-size: 1.1em;
+}
+.modal-mc-service .pricing-login-overlay .btn {
+    border: 0;
+}
+
+.modal-mc-service .symantec .features-overview {
+    margin: 20px 0;
+    padding: 20px 40px 10px;
+    background-color: #e4e4e4;
+    border-radius: 6px;
+    color: #444;
+    font-size: 0.95em;
+}
+.modal-mc-service .symantec .features-overview i {
+    color: #fff;
+}
+.modal-mc-service .symantec .features-overview h4 {
+    margin: 0;
+    color: #444;
+}
+.modal-mc-service .symantec .row-logos {
+    margin-top: 20px;
+}
+.modal-mc-service .symantec ul {
+    list-style: none;
+}
+.modal-mc-service .symantec-ee {
+    margin: 12px 0;
+    padding: 15px 20px;
+    background-color: #fbba33;
+    color: #444;
+}
+.modal-mc-service .symantec-ee .inner {
+    padding: 20px;
+    font-weight: 300;
+    color: #fff;
+}
+.modal-mc-service .symantec-ee .inner span {
+    font-size: 1.3em;
+}
+.modal-mc-service .symantec .table-pricing {
+    font-size: 0.9em;
+}
+.modal-mc-service .symantec .table-pricing th {
+    padding: 0 0 2px 0;
+}
+.modal-mc-service .symantec .table-pricing td.issuance {
+    white-space: nowrap;
+}
+
+.modal-mc-service .weebly-features .feature {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.modal-mc-service .weebly-features .feature .icon {
+    height: 60px;
+    margin-bottom: 15px;
+}
+.modal-mc-service .weebly-features .feature h4 {
+    margin-bottom: 5px;
+}
+.modal-mc-service .weebly-features .feature .icon img {
+    max-height: 100%;
+}
+.modal-mc-service .weebly.faq h4 {
+    color: #666;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+.modal-mc-service .weebly .table-pricing {
+    font-size: 0.9em;
+}
+.modal-mc-service .weebly .table-pricing th {
+    padding: 6px;
+    vertical-align: bottom;
+}
+.modal-mc-service .weebly .table-pricing th span {
+    font-size: 1.7em;
+    font-weight: 300;
+}
+.modal-mc-service .weebly .table-pricing td {
+    padding: 1px 5px !important;
+}
+
+.modal-mc-service .icon-no {
+    color: #a93717
+}
+
+.modal-mc-service .icon-yes {
+    color: #209e61
+}
+
+.modal-mc-service .spamexperts .solutions {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.modal-mc-service .spamexperts .solutions .item {
+    margin: 0;
+    padding: 15px;
+    background-color: #dbe8ea;
+    text-align: center;
+}
+.modal-mc-service .spamexperts .solutions .item h4 {
+    margin: 0;
+    color: #333;
+}
+.modal-mc-service .spamexperts .solutions .item span {
+    font-weight: bold;
+}
+.modal-mc-service .spamexperts .solutions .item i {
+    margin: 7px;
+    font-size: 2em;
+    color: #5b8890;
+}
+.modal-mc-service .spamexperts .solutions .item p {
+    font-size: 0.9em;
+}
+.modal-mc-service .spamexperts-pricing .item {
+    margin: 0 0 10px 0;
+    padding: 17px 30px;
+    background-color: #f8f8f8;
+}
+.modal-mc-service .spamexperts-pricing h4 {
+    margin: 0 0 5px 0;
+    color: #777;
+}
+.modal-mc-service .spamexperts-pricing h4 span {
+    color: #999;
+}
+.modal-mc-service .spamexperts-pricing i {
+    padding-left: 10px;
+    padding-right: 6px;
+}
+.modal-mc-service .spamexperts.how-it-works {
+    margin-top: 15px;
+    padding: 20px 25px;
+    background-color: #dbe8ea;
+}
+
+.modal-mc-service .activate.advanced-mode {
+    padding: 30px 40px;
+}
+.modal-mc-service .activate.advanced-mode .tab-content {
+    height: 282px;
+    font-size: 0.75em;
+    overflow: hidden;
+}
+.modal-mc-service .activate.advanced-mode ul.products {
+    max-height: 282px;
+}
+.modal-mc-service .activate.advanced-mode .activate-btn-container {
+    margin: 18px 0 0 0;
+}
+
+.modal-mc-service .activate .steps {
+    margin: 0 0 15px 0;
+}
+.modal-mc-service .activate .steps a {
+    padding: 7px 12px;
+    position: relative;
+    display: inline-block;
+    min-width: 24%;
+    margin-left: 0.25%;
+    height: 32px;
+    text-align: center;
+    text-decoration: none !important;
+    font-size: 13px;
+    color: #707070;
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+.modal-mc-service .activate .steps a:first-child {
+    margin-left: 0;
+}
+.modal-mc-service .activate .steps:not(.left-arrow) a:before {
+    width: 0;
+    height: 0;
+    border-top: 16px inset transparent;
+    border-bottom: 16px inset transparent;
+    border-left: 16px solid #FFFFFF;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+}
+.modal-mc-service .activate .steps:not(.left-arrow) a:after {
+    width: 0;
+    height: 0;
+    border-top: 16px inset transparent;
+    border-bottom: 16px inset transparent;
+    border-left: 16px solid #f8f8f8;
+    position: absolute;
+    content: "";
+    top: 0;
+    right: -16px;
+    z-index: 2;
+}
+
+.modal-mc-service .activate .steps a.active {
+    background-color: #beecbe;
+    color: #226322;
+}
+.modal-mc-service .activate .steps a.active:after {
+    border-left: 16px solid #beecbe;
+}
+
+.modal-mc-service .activate .steps a:first-child:before,
+.modal-mc-service .activate .steps a:last-child:after {
+    border: none;
+}
+.modal-mc-service .activate .steps a:first-child {
+    border-radius: 4px 0 0 4px;
+}
+.modal-mc-service .activate .steps a:last-child {
+    border-radius: 0 4px 4px 0;
+}
+.modal-mc-service .activate .steps a.mode-label {
+    background-color: #eee;
+    font-weight: bold;
+    cursor: auto;
+}
+.modal-mc-service .activate .steps a.mode-label:after {
+    border-left: 16px solid #eee;
+}
+
+.modal-mc-service .advanced-mode .tab-content h3 {
+    font-size: 20px;
+}
+.modal-mc-service .advanced-mode .promo {
+    font-size :13px;
+}
+.modal-mc-service .advanced-mode .promo p {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.modal-mc-service .sitelock .icons {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+}
+.modal-mc-service .sitelock .icons img {
+    margin: 0 0 5px 0;
+    max-height: 50px;
+}
+.modal-mc-service .sitelock .feature-wrapper {
+    margin: 0 0 15px 0;
+}
+.modal-mc-service .sitelock .feature-wrapper i {
+    float: left;
+    font-size: 4em;
+}
+.modal-mc-service .sitelock .feature-wrapper .content {
+    margin-left: 100px;
+}
+.modal-mc-service .sitelock .feature-wrapper p {
+    font-size: 0.9em;
+}
+.modal-mc-service .sitelock .lite-features {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 1.3em;
+    font-weight: 300;
+}
+.modal-mc-service .sitelock .lite-features i {
+    padding-left: 25px;
+    padding-right: 8px;
+}
+.modal-mc-service .sitelock i.fa-check {
+    color: #36ab3a;
+}
+.modal-mc-service .sitelock .faq .panel {
+    border: 0;
+}
+.modal-mc-service .sitelock .faq .panel-heading {
+    padding: 10px 14px;
+    background: transparent;
+}
+.modal-mc-service .sitelock .faq h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+.modal-mc-service .sitelock .faq h4 a {
+    color: #222;
+}
+.modal-mc-service .sitelock .faq .panel-body {
+    padding: 3px 14px 10px;
+    color: #555;
+    border: 0;
+    font-weight: 300;
+}
+.modal-mc-service .sitelock.faq {
+    max-height: 400px;
+    overflow: auto;
+}
+.modal-mc-service .sitelock .table-pricing {
+    font-size: 0.9em;
+}
+.modal-mc-service .sitelock.pricing,
+.modal-mc-service .symantec.pricing {
+    max-height: 400px;
+    overflow: auto;
+}
+
+.marketconnect-product-redirect {
+    margin: 0 0 10px 0;
+    padding: 65px 50px;
+    text-align: center;
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.1em;
+    border-radius: 4px;
+}
+.marketconnect-product-redirect .btn {
+    margin-top: 8px;
+}
+
+.mc-smwrapper {
+    padding: 15px;
+}
+.mc-sm-container {
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 6px;
+    max-width: 1000px;
+}
+.mc-sm-container h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #444;
+}
+.mc-sm-container .actions {
+    margin: 20px;
+    text-align: center;
+}
+.mc-sm-container .actions .btn {
+    margin-bottom: 5px;
+    font-size: 0.95em;
+}
+.mc-sm-container .addt-info {
+    margin:20px 0 0;
+    padding: 20px;
+    padding-bottom: 0;
+    border-top: 1px solid #eee;
+}
+.mc-sm-container .detailed-order-status {
+    margin: 20px 0 0 0;
+}
+.mc-sm-container .actions .btn-wrapper {
+    display: inline-block;
+}
+
+.mc-sm-container .field-label {
+    color: #888;
+}
+
+.mc-sm-container h3 span {
+    display: block;
+    padding: 5px 0;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.mc-sm-container .status {
+    display:inline;
+    padding: 5px 15px;
+    background-color:#666;
+    color:#fff;
+    font-size: 0.9em;
+}
+.mc-sm-container .status.active,
+.mc-sm-container .status.configurationsubmitted {
+    background-color:#64bf59;
+}
+.mc-sm-container .status.awaitingconfiguration {
+    background-color:#5bc0de;
+}
+.mc-sm-container .status.refunded {
+    background-color:#de9e5b;
+}
+
+@media (min-width:768px) {
+    .mc-sm-container .field-label {
+        text-align: right;
+    }
+    .mc-sm-container h3 span {
+        float: right;
+    padding: 8px 15px;
+    }
+}
+@media (max-width:767px) {
+    .mc-sm-container .actions .btn {
+        width: 100%;
+        text-align: left;
+    }
+    .mc-sm-container .field-label {
+        margin-bottom: 2px;
+        font-weight: bold;
+    }
+    .mc-sm-container .actions {
+        margin: 20px 0;
+    }
+}

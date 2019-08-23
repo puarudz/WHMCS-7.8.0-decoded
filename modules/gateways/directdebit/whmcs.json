@@ -1,0 +1,17 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "directdebit",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "Direct Debit",
+    "tagline": "Capture bank account details for offline Direct Debit processing."
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

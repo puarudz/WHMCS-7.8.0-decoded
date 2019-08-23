@@ -1,0 +1,20 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "bluepayecheck",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "BluePay E-check",
+    "tagline": "Accept virtual e-check payments via BluePay."
+  },
+  "support": {
+    "docs_url": "https:\/\/docs.whmcs.com\/BluePay"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

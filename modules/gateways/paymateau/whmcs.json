@@ -1,0 +1,20 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "paymateau",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "Paymate AU",
+    "tagline": "A third party payment gateway."
+  },
+  "support": {
+    "docs_url": "https:\/\/docs.whmcs.com\/Paymate_AU_and_NZ"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

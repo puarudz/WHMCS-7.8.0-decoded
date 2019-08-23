@@ -1,0 +1,21 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-servers",
+  "name": "virtualmin",
+  "license": "proprietary",
+  "category": "provisioning",
+  "description": {
+    "name": "Virtualmin",
+    "tagline": "Virtualmin is an open-source web hosting control panel for Linux.",
+    "long": ""
+  },
+  "support": {
+    "docs_url": "https://docs.whmcs.com/Virtualmin_Pro"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

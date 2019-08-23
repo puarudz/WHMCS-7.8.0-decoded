@@ -1,0 +1,20 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "usaepay",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "USA ePay",
+    "tagline": "A merchant credit card processing gateway."
+  },
+  "support": {
+    "docs_url": "https:\/\/docs.whmcs.com\/USA_ePay"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

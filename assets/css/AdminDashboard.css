@@ -1,0 +1,576 @@
+/* --- Dashboard Layout --- */
+
+.home-widgets-container {
+    margin-left: -7px;
+    margin-right: -7px;
+}
+
+.home-widgets-container:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.dashboard-panel-sizer,
+.dashboard-panel-item {
+  width: 33.3%;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.dashboard-panel-item {
+  float: left;
+}
+
+.dashboard-panel-item-columns-2 {
+    width: 66.6%;
+}
+.dashboard-panel-item-columns-3 {
+    width: 100%;
+}
+
+.dashboard-panel-item .panel {
+    border: 0;
+    margin-bottom: 14px;
+}
+.dashboard-panel-item .panel-heading {
+    cursor: move;
+    margin: 0;
+    padding: 10px 15px;
+    background-color: #fff;
+    border: 0;
+}
+.dashboard-panel-item .panel-heading .panel-title {
+    cursor: move;
+    color: #275f96;
+    font-size: 13px;
+    font-weight: 600;
+}
+.dashboard-panel-item .panel-body {
+    padding: 0;
+    border-top: 1px solid #eee;
+    overflow: hidden;
+}
+.dashboard-panel-item .panel-body.panel-loading {
+    opacity: 0.4;
+}
+.dashboard-panel-item .widget-content-padded {
+    padding: 20px;
+    max-height: 300px;
+    overflow: auto;
+}
+
+.dashboard-panel-item .widget-tools {
+    float: right;
+    margin: -3px -3px 0 0;
+}
+.dashboard-panel-item .widget-tools a {
+    color: #ccc;
+}
+.dashboard-panel-item .widget-tools i {
+    padding: 0 3px;
+}
+.dashboard-panel-item .widget-tools i:hover {
+    color: #888;
+}
+
+.widget-settings {
+    margin-top: -41px;
+    cursor: pointer;
+}
+.widget-settings .btn {
+    padding: 2px 5px;
+    font-size: 1.6em;
+    line-height: 1em;
+    color: #bbb;
+}
+.widget-settings .btn:active,
+.widget-settings .btn:focus,
+.widget-settings .btn:hover {
+    color: #666;
+    outline: none;
+}
+
+.widget-settings .dropdown-menu {
+    margin: 0 -5px 0 0;
+    padding: 5px 0;
+    width: 200px;
+    font-size: 0.95em;
+    background-color: #fff;
+    color: #444;
+}
+.widget-settings li {
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #fff;
+}
+.widget-settings li.active {
+    background-color: #f8f8f8;
+}
+.widget-settings h4 {
+    padding: 0 7px 3px 7px;
+    font-size: 1.2em;
+    text-align: center;
+}
+.widget-settings .checkbox-inline {
+    display: block;
+    padding: 3px 12px;
+}
+.widget-settings  .icheckbox_flat-blue {
+    margin-right: 2px;
+}
+
+/* --- Text Colors --- */
+
+.color-blue {
+    color: #6ecacc;
+}
+.color-grey {
+    color: #959595;
+}
+.color-purple {
+    color: #af5dd5;
+}
+.color-green {
+    color: #5dc560;
+}
+.color-orange {
+    color: #eaae53;
+}
+.color-pink {
+    color: #ea5395;
+}
+.color-cyan {
+    color: #63cfd2;
+}
+
+/* --- Icon Stats --- */
+
+.icon-stats {
+    padding: 20px;
+    font-size: 0.9em;
+}
+.icon-stats a,
+.icon-stats a:hover,
+.icon-stats a:active {
+    color: inherit;
+    text-decoration: none;
+}
+.icon-stats .item {
+    clear: both;
+}
+.icon-stats .icon-holder {
+    float: left;
+    font-size: 36px;
+}
+.icon-stats .data {
+    margin-left: 50px;
+}
+.icon-stats .data div {
+    white-space: nowrap;
+    overflow: hidden;
+}
+.icon-stats .number {
+    font-size: 20px;
+}
+.icon-stats .unit {
+    font-size: 15px;
+    color: #888;
+}
+
+/* --- Activity Widget --- */
+
+.widget-activity .widget-content-padded {
+    padding: 10px 20px;
+    font-size: 0.9em;
+}
+.widget-activity .feed-element {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+.widget-activity .feed-element:last-child {
+    border: 0;
+}
+
+/* --- Automation Widget --- */
+
+.widget-automation {
+    font-weight: 300;
+}
+.widget-automation .col-sm-6 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+.widget-automation .mini-chart {
+    margin-top: 5px;
+    text-align: center;
+}
+.widget-automation h4 {
+    margin: 0;
+}
+.widget-automation h4 .title-text {
+    display: block;
+    margin-top: 2px;
+    font-size: 13px;
+    color: #a2a6af;
+    font-weight: 300;
+    text-align: center;
+}
+.widget-automation p {
+    margin: 0;
+    font-size: 1.6em;
+    font-weight: 400;
+    text-align: center;
+}
+.widget-automation .text-footer {
+    text-align: left;
+    font-size: 12px;
+    margin: 5px 10px;
+    color: #999;
+}
+
+/* --- Badges --- */
+
+.home-status-badge-row {
+    margin-left: -7px;
+    margin-right: -7px;
+    margin-bottom: 10px;
+}
+.home-status-badge-row div[class^="col-sm-"] {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.health-status-block .icon a,
+.health-status-block .icon a:hover,
+.health-status-block .detail a,
+.health-status-block .detail a:hover {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+.status-badge-green {
+    background-color: #5dc560;
+}
+.status-badge-green .icon {
+    background-color: #49a94d;
+}
+.status-badge-orange {
+    background-color: #eaae53;
+}
+.status-badge-orange .icon {
+    background-color: #d28818;
+}
+.status-badge-pink {
+    background-color: #ea5395;
+}
+.status-badge-pink .icon {
+    background-color: #d61a6c;
+}
+.status-badge-cyan {
+    background-color: #8dd5d9;
+}
+.status-badge-cyan .icon {
+    background-color: #68b1b5;
+}
+
+/* --- Billing Widget --- */
+
+.widget-billing .row {
+    margin: 0;
+}
+.widget-billing .bordered-right {
+    border-right: 1px solid #eee;
+}
+.widget-billing .bordered-top {
+    border-top: 1px solid #eee;
+}
+.widget-billing .item {
+    padding: 13px 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.widget-billing .item .data {
+    display: block;
+    font-size: 1.8em;
+}
+.widget-billing .item .note {
+    font-size: 0.9em;
+    color: #a2a6af;
+}
+
+/* --- Health Widget --- */
+
+.widget-health .progress {
+    margin-top: 7px;
+}
+.widget-health .item .icon-holder {
+    margin-top: -8px;
+    font-size: 42px;
+}
+
+/* --- Network Status Widget --- */
+
+.widget-networkstatus .item {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    border-bottom: 1px solid #f3f3f3;
+    overflow: hidden;
+}
+.widget-networkstatus .item:first-child {
+    padding-top: 0;
+}
+.widget-networkstatus .item:last-child {
+    border: 0;
+    padding-bottom: 0;
+}
+.widget-networkstatus .name {
+    font-size: 16px;
+    float: left;
+    width: 30%;
+    color: #616670;
+    vertical-align: middle;
+}
+.widget-networkstatus .note {
+    font-size: 12px;
+    color: #a2a6af;
+}
+.widget-networkstatus .name .data,
+.widget-networkstatus .name .note {
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.widget-networkstatus .stats {
+    float: left;
+    width: 70%;
+    overflow: hidden;
+}
+.widget-networkstatus .status,
+.widget-networkstatus .uptime,
+.widget-networkstatus .load {
+    float: left;
+    display: inline-block;
+    padding: 0 15px;
+    width: 33.33%;
+}
+
+/* --- Overview Widget --- */
+
+.btn-period-chooser {
+    float: right;
+}
+.btn-period-chooser .btn {
+    padding: 3px 10px;
+    color: #999;
+}
+.btn-period-chooser .btn.active {
+    color: #444;
+    font-weight: 600;
+    box-shadow: none;
+    border-color: #ccc;
+}
+.btn-period-chooser .btn:focus,
+.btn-period-chooser .btn:active:focus,
+.btn-period-chooser .btn.active:focus,
+.btn-period-chooser .btn.focus,
+.btn-period-chooser .btn:active.focus,
+.btn-period-chooser .btn.active.focus {
+  outline: none;
+}
+.btn-period-chooser .btn:active,
+.btn-period-chooser .btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+/* --- Staff Widget --- */
+
+.widget-staff-container {
+    padding: 10px 0;
+}
+.widget-staff-container .staff {
+    padding: 10px 20px;
+    width: 25%;
+    min-width: 130px;
+    float: left;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.widget-staff-container .staff img {
+    padding-bottom: 4px;
+}
+.widget-staff-container .staff .name {
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.widget-staff-container .staff .note {
+    font-size: 0.85em;
+    color: #a2a6af;
+}
+
+/* --- Support Widget --- */
+
+.widget-support .tickets-list {
+    margin:0 20px 12px;
+    font-size: 0.9em;
+}
+.widget-support .tickets-list .ticket {
+    padding: 5px 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.widget-support .tickets-list .ticket:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+.widget-support .footer {
+    margin: 20px 0 0 0;
+    padding: 6px 12px 3px 12px;
+    border-top: 1px solid #eee;
+    text-align: center;
+    font-size: 12px;
+    margin: 5px 10px;
+    color: #999;
+}
+.widget-support .footer a {
+    text-decoration: underline;
+    padding: 0 6px;
+}
+
+/* --- Client Activity Widget --- */
+
+.widget-clientactivity .clients-list {
+    margin:0 20px 20px 20px;
+    font-size: 0.9em;
+    max-height: 150px;
+    overflow: auto;
+}
+.widget-clientactivity .client {
+    padding: 5px 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.widget-clientactivity .client:nth-child(even) {
+    background-color: #f8f8f8;
+}
+.widget-clientactivity .last-login {
+    float: right;
+    color: #959595;
+    font-size: 0.9em;
+}
+.widget-clientactivity .ip-address {
+    display: block;
+    font-style: italic;
+    color: #63cfd2;
+    font-size: 0.9em;
+}
+
+/* --- MarketConnect Widget --- */
+
+.widget-marketconnect h4 {
+    margin: 0 0 2px 0;
+    font-size: 16px;
+    color: #455;
+}
+.widget-marketconnect .selling-status {
+    margin: 10px 0 7px;
+    padding: 2px;
+    text-align: center;
+    font-size: 0.85em;
+    color: #666;
+    white-space: nowrap;
+    overflow: auto;
+}
+.widget-marketconnect .selling-status .service {
+    display: inline-block;
+    margin: 10px 0;
+    width: 120px;
+    min-width: 90px;
+    max-width: 200px;
+}
+@media (min-width: 1650px) {
+    .widget-marketconnect .selling-status .service {
+        width: 25%;
+    }
+}
+.widget-marketconnect .selling-status img {
+    display: block;
+    margin: 5px auto;
+    max-height: 50px;
+}
+.widget-marketconnect .selling-status span.title {
+    display: block;
+    margin: 0 0 5px 0;
+}
+.widget-marketconnect .selling-status span.label {
+    padding: 2px 8px;
+    font-size: 0.7em;
+}
+.widget-marketconnect .selling-status .not-selling img {
+    opacity: 0.3;
+}
+.widget-marketconnect .selling-status .not-selling .title {
+    color: #ccc;
+}
+.widget-marketconnect .btn-manage {
+    margin: -2px 5px 0 0;
+    padding: 2px 24px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+.widget-marketconnect .btn-deposit,
+.widget-marketconnect .btn-promo {
+    padding: 2px 10px;
+    color: #444;
+    font-size: 12px;
+    border-radius: 3px;
+}
+.widget-marketconnect .btn-promo {
+    margin-top: 3px;
+}
+.widget-marketconnect .balance-wrapper {
+    margin: 5px 0 0 0;
+    padding: 15px 10px 0 10px;
+    border-top: 1px solid #ddd;
+}
+.widget-marketconnect .promo-wrapper {
+    text-align: center;
+    color: #666;
+}
+.widget-marketconnect .balance-wrapper small {
+    display: block;
+    font-size: 0.75em;
+}
+
+/* Packery */
+.packery-drop-placeholder {
+    outline: 3px dashed #999;
+    outline-offset: -6px;
+    /* transition position changing */
+    -webkit-transition: -webkit-transform 0.2s;
+    transition: transform 0.2s;
+}
+
+@media (max-width: 950px) {
+    .dashboard-panel-sizer,
+    .dashboard-panel-item {
+        width: 100%;
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+    .dashboard-panel-item-columns-2 {
+        width: 100%;
+    }
+    .dashboard-panel-item-columns-3 {
+        width: 100%;
+    }
+}

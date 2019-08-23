@@ -1,0 +1,31 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-registrars",
+  "name": "resellerclub",
+  "license": "proprietary",
+  "category": "domains",
+  "description": {
+    "name": "ResellerClub",
+    "tagline": "A leading wholesale domain reseller registrar.",
+    "long": "## Apply for an account\nWHMCS users get exclusive access to signup with no setup fees, no minimum deposit commits and preferential pricing.\n[Click here to create an account](https://freeaccount.partnersite.myorderbox.com/reseller.php?action=show_signupform)",
+    "features": [
+      "Automated Domain Registrations, Transfers & Renewals",
+      "Ability to View/Change Nameservers & WHOIS Info",
+      "Domain Locking, ID Protection, EPP Code Retrieval",
+      "Register/Manage Private Nameservers"
+    ]
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https:\/\/www.resellerclub.com\/",
+    "docs_url": "https:\/\/docs.whmcs.com\/ResellerClub"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

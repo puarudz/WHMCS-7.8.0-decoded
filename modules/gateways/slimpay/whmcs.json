@@ -1,0 +1,24 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "slimpay",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "SlimPay",
+    "tagline": "Accept and process payments by SEPA and Direct Debit.",
+    "long": "Direct Debit is a good payment method for subscription and recurring payments.\n\nSlimPay helps merchants optimize the subscription collection process with reliable direct debit processing designed to maximize customers lifetime value and collect payments automatically and efficiently."
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "docs_url": "https:\/\/docs.whmcs.com\/SlimPay"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

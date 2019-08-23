@@ -1,0 +1,23 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-registrars",
+  "name": "gmointernet",
+  "license": "proprietary",
+  "category": "domains",
+  "description": {
+    "name": "GMO Internet",
+    "tagline": "A leading Japanese domain wholesale registrar provider."
+  },
+  "logo": {
+    "filename": "logo.gif"
+  },
+  "support": {
+    "docs_url": "https:\/\/docs.whmcs.com\/GMO_Internet"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

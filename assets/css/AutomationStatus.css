@@ -1,0 +1,169 @@
+.automation-status .day-selector {
+    float: right;
+    margin-top: -7px;
+}
+.automation-status .day-selector .btn {
+    border: 0;
+    color: #aaa;
+    line-height: 31px;
+    font-weight: 300;
+}
+.automation-status .day-selector .btn:hover {
+    color: #555;
+}
+.automation-status .day-selector .btn.btn-viewing {
+    font-size: 1.6em;
+}
+.automation-status .day-selector .btn.disabled {
+    color: #ddd;
+}
+
+.automation-status .widgets-container {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.automation-status .widgets-container div[class^="col-sm-"],
+.automation-status .widgets-container div[class^="col-md-"],
+.automation-status .widgets-container div[class^="col-lg-"] {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.automation-status .widget {
+    margin: 0 0 10px 0;
+    border: 1px solid #eee;
+}
+.automation-status .widget .info-container {
+    background: #fff;
+    border-radius: 4px;
+    padding: 12px 15px;
+}
+.automation-status .widget .info-container i {
+    color: #ccc;
+}
+.automation-status .widget .info-container .intro {
+    color: #444;
+    margin-bottom: 2px;
+    font-weight: 300;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.automation-status .widget .info-container .title {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.automation-status .widget .info-container .figure {
+    color: #6198d0;
+    font-size: 38px;
+    margin: 0;
+}
+.automation-status .widget .info-container .note {
+    color: #a2a6af;
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 5px;
+}
+
+.automation-status .widget .failed,
+.automation-status .widget .failed:hover {
+    float: right;
+    margin-top: -18px;
+    font-size: 0.9em;
+    color: #e48b8b;
+}
+.automation-status .widget .failed:hover {
+    text-decoration: underline;
+}
+
+.automation-status .widget .info-container i.fa-check {
+    color: #94ca84;
+}
+
+.automation-status .widget .info-container small {
+    float: right;
+    margin-top: -18px;
+    font-size: 0.9em;
+    color: #d2d1d1;
+}
+
+.automation-status .info-container-boolean p.intro {
+    line-height: 23px;
+}
+.automation-status .info-container-boolean .status {
+    float: left;
+    margin-top: -3px;
+}
+.automation-status .info-container-boolean .status i {
+    font-size: 2em;
+}
+.automation-status .widget .info-container-boolean small {
+    margin-top: -20px;
+}
+
+.status-badge-grey {
+    background-color: #bbb;
+}
+.status-badge-grey .icon {
+    background-color: #999;
+}
+
+.automation-status .calendar-container {
+    padding:15px;
+    background-color:#f8f8f8;
+    border-radius: 4px;
+}
+
+#automation-status-calendar .ui-datepicker {
+    margin: 0 0 20px 0;
+    background: none;
+}
+#automation-status-calendar .ui-datepicker-inline {
+    width: 100%;
+    border: 0;
+    padding: 0;
+}
+#automation-status-calendar .ui-datepicker-header {
+    background: none;
+    border-radius: 0;
+    border: 0;
+}
+#automation-status-calendar .ui-datepicker-title {
+    background-color: #eee;
+    border-radius: 4px;
+    color: #666;
+    font-weight: 300;
+}
+#automation-status-calendar .ui-datepicker th {
+    color: #888;
+}
+#automation-status-calendar .ui-state-default {
+    text-align: center;
+    padding: 5px 0;
+    background: #fff;
+    border-color: #eee;
+    border: 0;
+    color: #888;
+    font-weight: 300;
+}
+#automation-status-calendar .ui-state-active {
+    background: #1a4d80;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.automation-status .graph-container {
+    margin: 10px 0;
+    padding: 30px;
+    height: 380px;
+    background-color: #f8f8f8;
+}
+.automation-status .graph-filters {
+    margin: -20px -20px 20px 0;
+    float: right;
+}
+.automation-status .graph-filters .btn-default {
+    border: 1px solid transparent;
+}
+.automation-status .graph-filters a.active {
+    background-color: #fbe7b7;
+}

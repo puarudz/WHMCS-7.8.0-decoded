@@ -1,0 +1,20 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "psigate",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "PsiGate",
+    "tagline": "A merchant credit card gateway."
+  },
+  "support": {
+    "docs_url": "https:\/\/docs.whmcs.com\/PSIGate"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "paypalpaymentsproref",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "PayPal Reference Pro",
+    "tagline": "Recurring credit card processing with PayPal Reference Payments."
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "docs_url": "https:\/\/docs.whmcs.com\/PayPal_Website_Payments_Pro#Reference_Payments"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

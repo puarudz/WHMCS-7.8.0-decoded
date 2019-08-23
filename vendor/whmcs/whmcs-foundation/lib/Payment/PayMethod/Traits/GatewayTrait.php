@@ -1,0 +1,23 @@
+<?php
+/*
+ * @ PHP 5.6
+ * @ Decoder version : 1.0.0.1
+ * @ Release on : 24.03.2018
+ * @ Website    : http://EasyToYou.eu
+ */
+
+namespace WHMCS\Payment\PayMethod\Traits;
+
+trait GatewayTrait
+{
+    public function loadGateway($gatewayName)
+    {
+        $gateway = new \WHMCS\Module\Gateway();
+        if ($gateway->load($gatewayName)) {
+            return $gateway;
+        }
+        return null;
+    }
+}
+
+?>

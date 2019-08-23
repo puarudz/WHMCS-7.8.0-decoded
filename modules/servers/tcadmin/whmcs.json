@@ -1,0 +1,26 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-servers",
+  "name": "tcadmin",
+  "license": "proprietary",
+  "category": "provisioning",
+  "description": {
+    "name": "TCAdmin",
+    "tagline": "A game hosting control panel supporting game and voice.",
+    "long": "The TCAdmin module for WHMCS enables you to sell Game and Voice servers.\n\nWith WHMCS and TCAdmin, you have full control over package features and fully automated provisioning/management of TCAdmin accounts.",
+    "features": [
+       "Sell Game & Voice Servers",
+       "Charge per number of game and voice slots",
+       "Suspend, Unsuspend, Terminate"
+    ]
+  },
+  "support": {
+    "docs_url": "https:\/\/docs.whmcs.com\/TCAdmin"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

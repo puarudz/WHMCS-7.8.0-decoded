@@ -1,0 +1,20 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-addons",
+  "name": "newtlds",
+  "license": "proprietary",
+  "category": "other",
+  "description": {
+    "name": "New TLDs",
+    "tagline": "Promote and offer New TLDs to your customers with Enom."
+  },
+  "support": {
+    "docs_url": "https:\/\/www.enom.com\/whmcs\/tld-portal\/default.aspx"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

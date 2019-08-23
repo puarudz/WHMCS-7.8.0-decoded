@@ -1,0 +1,22 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-registrars",
+  "name": "resellercamp",
+  "license": "proprietary",
+  "category": "domains",
+  "description": {
+    "name": "ResellerCamp"
+  },
+  "logo": {
+    "filename": "logo.gif"
+  },
+  "support": {
+    "docs_url": "https:\/\/docs.whmcs.com\/ResellerCamp"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

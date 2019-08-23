@@ -1,0 +1,33 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "tco",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "2CheckOut",
+    "tagline": "The leading PayPal alternative with built-in fraud checking.",
+    "long": "2Checkout.com (2CO) is a worldwide leader in payment and e-commerce services. Since 2000, 2Checkout has helped hundreds of thousands of online merchants with a global platform of payment methods and world-class fraud prevention service, hosted on a safe, secure, and reliable PCI-compliant payment system.",
+    "features": [
+      "Accept PayPal, US Debit Cards and all major credit cards",
+      "Supports processing payments in over 25 currencies and 15 languages",
+      "One-time and fully automated recurring billing integration with WHMCS",
+      "Secure hosted payment page avoids PCI Compliance",
+      "Built in fraud protection to actively reduce the chance of chargebacks"
+    ]
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https:\/\/www.2checkout.com\/",
+    "docs_url": "https:\/\/docs.whmcs.com\/2CheckOut",
+    "learn_more": "http:\/\/go.whmcs.com\/554\/2checkout-signup"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

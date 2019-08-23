@@ -1,0 +1,4 @@
+; WHMCS Plesk Provisioning Module Config File
+
+; Limit of accounts per Plesk client
+; account_limit = 1

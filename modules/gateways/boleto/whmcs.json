@@ -1,0 +1,20 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "boleto",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "Boleto",
+    "tagline": "A popular offline payment method in Brazil."
+  },
+  "support": {
+    "docs_url": "https:\/\/docs.whmcs.com\/Boleto"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

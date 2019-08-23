@@ -1,0 +1,22 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-servers",
+  "name": "websitepanel",
+  "license": "proprietary",
+  "category": "provisioning",
+  "description": {
+    "name": "Website Panel",
+    "tagline": "A Windows hosting control panel for MSP's and hosting providers.",
+    "long": ""
+  },
+  "support": {
+    "homepage": "http://www.websitepanel.net/",
+    "docs_url": "https://docs.whmcs.com/WebsitePanel"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-notifications",
+  "name": "slack",
+  "license": "proprietary",
+  "category": "notifications",
+  "description": {
+    "name": "Slack",
+    "tagline": "Slack is a leading team collaboration tool.",
+    "long": "Get real-time notifications directly via Slack to desktop and mobile.\n\nCreate powerful event driven notification rules that help keep you and your team in the loop using a wide range of event triggers and conditional criteria.",
+    "features": [
+      "Event driven notifications",
+      "Support for notifying public and private channels",
+      "Customisable notification messages",
+      "Context specific information"
+    ]
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https:\/\/www.slack.com\/",
+    "docs_url": "https:\/\/docs.whmcs.com\/Configuring_Notifications_with_Slack"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

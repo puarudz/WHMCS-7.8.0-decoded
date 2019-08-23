@@ -1,0 +1,37 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-servers",
+  "name": "plesk",
+  "license": "proprietary",
+  "category": "webhosting",
+  "description": {
+    "name": "Plesk",
+    "tagline": "The leading Windows web hosting control panel.",
+    "long": "Plesk is a popular web hosting platform that supports both Linux and Windows and is fully integrated with WHMCS for web hosting automation.",
+    "features": [
+      "Automatic account provisioning and management",
+      "Automatic suspend and reactivation",
+      "Automated password resets and package upgrades",
+      "Automated SSL Installation and Deployment",
+      "Single Sign-On for customers"
+    ]
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https:\/\/www.plesk.com\/",
+    "support_url": "https:\/\/github.com\/plesk\/whmcs-plugin\/issues",
+    "docs_url": "https:\/\/docs.whmcs.com\/Plesk"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    },
+    {
+      "name": "Plesk",
+      "homepage": "https:\/\/www.plesk.com\/"
+    }
+  ]
+}

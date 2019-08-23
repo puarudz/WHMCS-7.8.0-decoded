@@ -1,0 +1,17 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "cashu",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "CashU",
+    "tagline": "A third party payment gateway."
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

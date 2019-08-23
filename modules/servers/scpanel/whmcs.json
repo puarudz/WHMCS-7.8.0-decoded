@@ -1,0 +1,21 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-servers",
+  "name": "scpanel",
+  "license": "proprietary",
+  "category": "provisioning",
+  "description": {
+    "name": "SCPanel",
+    "tagline": "A Shoutcast hosting control panel software.",
+    "long": ""
+  },
+  "support": {
+    "docs_url": "https://docs.whmcs.com/SCPanel"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

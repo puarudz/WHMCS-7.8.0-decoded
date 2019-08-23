@@ -1,0 +1,30 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "paypal",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "PayPal",
+    "tagline": "PayPal is the #1 most recognised and widely used payment gateway.",
+    "long": "PayPal is the fast, easy, secure way to accept credit cards and PayPal online. Millions of users know and trust the PayPal payment solution online.",
+    "features": [
+      "Automatic recurring subscription billing",
+      "Subscription management automation & one-click refunds",
+      "3 Integration Methods to choose from: PayPal Website Payments Standard, PayPal Express Checkout & PayPal Website Payments Pro for merchant processing"
+    ]
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https:\/\/www.paypal.com\/",
+    "docs_url": "https:\/\/docs.whmcs.com\/PayPal"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

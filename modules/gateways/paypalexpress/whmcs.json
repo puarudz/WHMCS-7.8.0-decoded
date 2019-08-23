@@ -1,0 +1,24 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "paypalexpress",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "PayPal Express Checkout",
+    "tagline": "Speed up checkout and provide added convenience."
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https:\/\/www.paypal.com\/",
+    "docs_url": "https:\/\/docs.whmcs.com\/PayPal"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

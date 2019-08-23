@@ -1,0 +1,20 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "nochex",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "NoChex",
+    "tagline": "A third party payment gateway."
+  },
+  "support": {
+    "docs_url": "https:\/\/docs.whmcs.com\/NoChex"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

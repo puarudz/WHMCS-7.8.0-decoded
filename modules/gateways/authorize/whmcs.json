@@ -1,0 +1,32 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "authorize",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "Authorize.net",
+    "tagline": "The leading credit card processing gateway with fee matching.",
+    "long": "Authorize.net is one of the most established and popular Credit Card Payment Gateway Processors.\n\n## Apply for an account\n[Learn more and apply &raquo;](https://www.whmcs.com/partners/evo-payments/?utm_source=in_product&utm_medium=apps)",
+    "features": [
+      "Reduced merchant account & gateway fees exclusively for WHMCS customers",
+      "No application or setup fees",
+      "Paid fast; funds deposited in two working days",
+      "Fully integrated for automatic recurring billing & refunds"
+    ]
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https:\/\/www.authorize.net\/",
+    "docs_url": "https:\/\/docs.whmcs.com\/Authorize.net",
+    "learn_more": "https:\/\/www.whmcs.com\/partners\/evo-payments/"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

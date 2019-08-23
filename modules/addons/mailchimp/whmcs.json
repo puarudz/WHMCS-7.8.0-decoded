@@ -1,0 +1,34 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-addons",
+  "name": "mailchimp",
+  "license": "proprietary",
+  "category": "marketing",
+  "description": {
+    "name": "MailChimp",
+    "tagline": "Build customer mailing lists and leverage e-commerce marketing.",
+    "long": "Automate mailing list management using the #1 digitial email marketing solution.\n\nPlus it's free for up to 2000 subscribers so there's no cost to get started.",
+    "features": [
+      "Drag and drop email builder",
+      "Integration allows you to utilise e-commerce automations",
+      "Subscriber management automation",
+      "Built-in email anti-spam compliance"
+    ]
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https:\/\/go.whmcs.com\/1297\/mailchimp-create-account",
+    "docs_url": "https:\/\/docs.whmcs.com\/Mailchimp"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ],
+  "keywords": [
+    "email"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-registrars",
+  "name": "internetbs",
+  "license": "proprietary",
+  "category": "domains",
+  "description": {
+    "name": "Internet.bs",
+    "tagline": "A reseller wholesale domain registration provider."
+  },
+  "logo": {
+    "filename": "logo.gif"
+  },
+  "support": {
+    "homepage": "https:\/\/www.internetbs.net\/",
+    "docs_url": "https:\/\/docs.whmcs.com\/Internet.bs"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

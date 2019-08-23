@@ -1,0 +1,291 @@
+.note{
+    padding:10px;
+    min-width:160px;
+    min-height:160px;
+    max-width:350px;
+    position:absolute;
+    overflow:auto;
+    cursor:move;
+    
+    display: inline-block;
+    word-wrap:break-word;
+    
+    font-family:Trebuchet MS,Tahoma,Myriad Pro,Arial,Verdana,sans-serif;
+    font-size:16px;
+    
+    /* Adding a CSS3 shadow below the note, in the browsers which support it: */
+    -moz-box-shadow:2px 2px 0 #DDDDDD;
+    -webkit-box-shadow:2px 2px 0 #DDDDDD;
+    box-shadow:2px 2px 0 #DDDDDD;
+}
+
+/* Styles for the notes */
+
+.yellow {
+    background-color:#FDFB8C;
+    border:1px solid #DEDC65;
+}
+
+.purple {
+    background-color:#DCD7FE;
+    border:1px solid #D4CDF3;
+}
+
+.white {
+    background-color:#FAFAFA;
+    border:1px solid #EBEBEB;   
+}
+
+.pink {
+    background-color:#F3CBF3;
+    border:1px solid #F1C3F1;   
+}
+
+.blue {
+    background-color:#A6E3FC;
+    border:1px solid #75C5E7;   
+}
+
+.green {
+    background-color:#A5F88B;
+    border:1px solid #98E775;
+}
+
+/* Each note has a data span, which holds its ID */
+span.data{  display:none; }
+
+.author{
+    /* Admin Name on the note: */
+    bottom:10px;
+    color:#666666;
+    font-family:Arial,Verdana,sans-serif;
+    font-size:9px;
+    text-align:right;
+    position:absolute;
+    right:10px;
+    margin-top:5px;
+    display:block;
+}
+
+h3.Title{
+    border-bottom:1px solid #DDDDDD;
+    color:#666666;
+    font-size:24px;
+    font-weight:normal;
+    padding:0 0 5px;
+}
+
+#noteData{
+    /* The input form in the pop-up: */
+    height:125px;
+    margin:0px;
+    width:350px;
+}
+
+.note-form label{
+    display:block;
+    font-size:10px;
+    font-weight:bold;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    padding-bottom:3px;
+}
+
+.note-form textarea, .note-form input[type=text]{
+    background-color:#FCFCFC;
+    border:1px solid #AAAAAA;
+    font-family:Arial,Verdana,sans-serif;
+    font-size:14px;
+    height:100px;
+    padding:5px;
+    width:500px;
+    margin-bottom:10px;
+}
+
+.note-form input[type=text]{    height:auto; }
+
+.color{
+    /* The color swatches in the form: */
+    cursor:pointer;
+    float:left;
+    height:10px;
+    margin:0 5px 0 0;
+    width:10px;
+}
+
+#note-submit{   margin:20px auto; }
+
+#main{
+    /* Contains all the notes and limits their movement: */
+    margin:0 auto;
+    position:relative;
+    width:100%;
+    min-height:800px;
+    height:100%;
+    z-index:10;
+}
+
+#contentarea{
+    height:125px;
+}
+
+/* Thickbox CSS - TB reached EOL! */
+
+/* ----------------------------------------------------------------------------------------------------------------*/
+/* ---------->>> thickbox specific link and font settings <<<------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------*/
+#TB_window {
+    font: 12px Arial, Helvetica, sans-serif;
+    color: #333333;
+}
+
+#TB_secondLine {
+    font: 10px Arial, Helvetica, sans-serif;
+    color:#666666;
+}
+
+#TB_window a:link {color: #666666;}
+#TB_window a:visited {color: #666666;}
+#TB_window a:hover {color: #000;}
+#TB_window a:active {color: #666666;}
+#TB_window a:focus{color: #666666;}
+
+/* ----------------------------------------------------------------------------------------------------------------*/
+/* ---------->>> thickbox settings <<<-----------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------*/
+#TB_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+}
+
+.TB_overlayMacFFBGHack {background: url(macFFBgHack.png) repeat;}
+.TB_overlayBG {
+    background-color:#000;
+    filter:alpha(opacity=75);
+    -moz-opacity: 0.75;
+    opacity: 0.75;
+}
+
+* html #TB_overlay { /* ie6 hack */
+     position: absolute;
+     height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');
+}
+
+#TB_window {
+    position: fixed;
+    background: #ffffff;
+    z-index: 102;
+    color:#000000;
+    display:none;
+    border: 4px solid #525252;
+    text-align:left;
+    top:50%;
+    left:50%;
+}
+
+* html #TB_window { /* ie6 hack */
+position: absolute;
+margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');
+}
+
+#TB_window img#TB_Image {
+    display:block;
+    margin: 15px 0 0 15px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #666;
+    border-left: 1px solid #666;
+}
+
+#TB_caption{
+    height:25px;
+    padding:7px 30px 10px 25px;
+    float:left;
+}
+
+#TB_closeWindow{
+    height:25px;
+    padding:11px 25px 10px 0;
+    float:right;
+}
+
+#TB_closeAjaxWindow{
+    padding:7px 10px 5px 0;
+    margin-bottom:1px;
+    text-align:right;
+    float:right;
+}
+
+#TB_ajaxWindowTitle{
+    float:left;
+    padding:7px 0 5px 10px;
+    margin-bottom:1px;
+}
+
+#TB_title{
+    background-color:#e8e8e8;
+    height:27px;
+}
+
+#TB_ajaxContent{
+    clear:both;
+    padding:2px 15px 15px 15px;
+    overflow:auto;
+    text-align:left;
+    line-height:1.4em;
+}
+
+#TB_ajaxContent.TB_modal{
+    padding:15px;
+}
+
+#TB_ajaxContent p{
+    padding:5px 0px 5px 0px;
+}
+
+#TB_load{
+    position: fixed;
+    display:none;
+    height:13px;
+    width:208px;
+    z-index:103;
+    top: 50%;
+    left: 50%;
+    margin: -6px 0 0 -104px; /* -height/2 0 0 -width/2 */
+}
+
+* html #TB_load { /* ie6 hack */
+position: absolute;
+margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');
+}
+
+#TB_HideSelect{
+    z-index:99;
+    position:fixed;
+    top: 0;
+    left: 0;
+    background-color:#fff;
+    border:none;
+    filter:alpha(opacity=0);
+    -moz-opacity: 0;
+    opacity: 0;
+    height:100%;
+    width:100%;
+}
+
+* html #TB_HideSelect { /* ie6 hack */
+     position: absolute;
+     height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');
+}
+
+#TB_iframeContent{
+    clear:both;
+    border:none;
+    margin-bottom:-1px;
+    margin-top:1px;
+    _margin-bottom:1px;
+}

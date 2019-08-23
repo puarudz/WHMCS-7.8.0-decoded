@@ -1,0 +1,23 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "paypalpaymentspro",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "PayPal Payments Pro",
+    "tagline": "Accept credit card payments directly with PayPal."
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "docs_url": "https:\/\/docs.whmcs.com\/PayPal_Payments_Pro"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

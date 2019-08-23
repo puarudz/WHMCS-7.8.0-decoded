@@ -1,0 +1,17 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "optimalpayments",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "Optimal Payments",
+    "tagline": "A third party payment gateway."
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

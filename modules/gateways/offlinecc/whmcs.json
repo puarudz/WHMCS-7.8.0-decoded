@@ -1,0 +1,21 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "offlinecc",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "Offline Credit Card",
+    "tagline": "Collect credit cards for offline processing.",
+    "long": "The Offline Credit Card module allows you to enable customers to enter credit card details and have them stored for manual processing offline."
+  },
+  "support": {
+    "docs_url": "https:\/\/docs.whmcs.com\/Offline_Credit_Card"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

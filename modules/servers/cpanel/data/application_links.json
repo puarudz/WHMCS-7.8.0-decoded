@@ -1,0 +1,156 @@
+{
+    "supportedApplicationLinks": {
+        "clientarea:profile": {
+            "label": "Manage Profile",
+            "description": "Allows users to view and update their profile information",
+            "app": "WHMCS_clientarea_profile",
+            "order": 1,
+            "group_id": "whmcs",
+            "implements": "",
+            "base64_png_image": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAnFBMVEUAAAAYm9glMjzb29sYm9glMjzb29sYm9glMjzb29sYm9glMjzb29sYm9glMjzb29sYm9glMjzb29vb29sYm9glMjzb29slMjzb29sYm9glMjzb29sYm9glMjzb29sYm9glMjzb29sYm9glMjzb29sYm9glMjw/SlPb29sYm9glMjzb29sYm9glMjxHUlppcXiipqmusbPQ0NHb29to9csaAAAALHRSTlMAEBAQICAgMDAwQEBAUFBQYGBgcICAgI+Pn5+fr6+vv7+/z8/P39/f3+/v7xL0y2gAAAIoSURBVHjalVbbdqJAEGyZiBcIxGEd3LByicSoSLIb/v/flm6uYw/L2XpADlZ1VzXDADDY8pDlVY08U1LADERA3AF58C+NHVUcRWRPVVeVGYUy8jedmThwBRVwg7gztuF8WdBfFyn0TJemic/4LX2ykjTxD8KYLeIK4hfaJV7OH+UtkL+BSbhEsPueOeMzBc0KWigeyuxKAcGmvDCDGF00Q4lwnvp8tr+S5OeTPquiayG4oZc74rplpqhFgA1gjMX1TngHDZe2cG5sQNBaUOW4jawn+NEJXmBAz5Skmxe0Xnw41McAzJZWoEHRnLL66MJcaIJLZnIyxj1xR7CpqRlgEnjA4h35CTwC11Mv4CmeTILKLHj+T8GKUr8tjJYotPk+XJ8NoflYV2/3HonWxMex8huHdgYFu3FsaWzvGh6XhssW3yrRAIS14zhWw2TLm8Pan0vEx2/0wh4ghjXRCV/fsntY5TT/Vg747DeBQkz5aeqfneY3pCcJW0Rgxh5pr6kHXvqKp8u5jeyM5UfnYT/gyjUmwKo3WJ/K1AI8T0ebsUnh1JyTB0f0Bd6p/hnv59IkIBdpUztEwVgRCy4g6q4+enAie5qCvVOsElEL9w5QhuOwdtuXov4itz9wSksHmy1xSjvDazdTrk0XfJVXf0rCEXOj1tLWe1FxfDUKjE1BNAiD5PuzHECGdInMdH4sRdjRz1Sfa3wVZxf8+olV8w2xDGtDt+OO/P8FxpCXOOPPXYkAAAAASUVORK5CYII=",
+            "fallback_url": "clientarea.php?action=details"
+        },
+        "clientarea:billing_info": {
+            "label": "Manage Billing Information",
+            "description": "Allows users to view and update their credit card information",
+            "app": "WHMCS_clientarea_billing_info",
+            "order": 1,
+            "group_id": "whmcs",
+            "implements": "",
+            "base64_png_image": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAq1BMVEUAAAAnrmCRVaonrmAnrmAnrmA8nG8nrmAnrmAnrmAnrmCRVaolMjwnrmBQQGhmR36RVaonrmAnrmCRVaonrmCRVaonrmAnrmB1bZYlMjwnrmAuqGU0o2k1s2pOP2VQvX5cgoVdwohpSIFwRIRyRYZ2R4t4zJx8SpJ9ZpyDTpmEYKGFT5yG0aaHUJ6KW6WLUqONU6WPVKiRVaqT17Ch3Lmu4cPJ69fX8OH///+LoxvkAAAAGXRSTlMAEBAgQFBQYHCAj4+fn5+fn6+/v8/P3+/v8CJ0UAAAAUhJREFUeAGV0OtSwjAQxfGlXKoUudBWYS2Cooh3iaB5/ydzJ053MkMPJufz7z+zCcEluTEZhS8pjWwc52WjSH83H0T6OS6AxwXyuABeNoz0N2Yc6Q0ooAcF9KDAfvcECuQf1o9ahPm1FoFei3CvRaCX3X9qEeY/jFsW52XYy96OvYHe7eXI59hr4fsywV6LKC9FnJftfC/LsfennmI9xXrK4rxsHOCfZ71OS4vRP/59VTHLJp26GJz0W8fdLrwC+2tm3VQLfE/F/s61AN6s1C72+wVzuy6GpnmV+h9rX5nPvN9t2tb39lZfAYuZ2C97+PMbltHJouwJ+bb2oJ4JF+KTjpCNYPWXhAvx1GZXqOcJ4UI8UeEK9ZwSLJyn1LHlklkvAoXzsgn76xIo1FOr8HxKBAr1UvRrftWlxmXG5Al5a/cL0dO0RbJf5tfi7Ihl2PMAAAAASUVORK5CYII=",
+            "fallback_url": "clientarea.php?action=creditcard"
+        },
+        "clientarea:emails": {
+            "label": "View Email History",
+            "description": "Displays all the email messages that have been sent",
+            "app": "WHMCS_clientarea_emails",
+            "order": 1,
+            "group_id": "whmcs",
+            "implements": "",
+            "base64_png_image": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAq1BMVEUAAACEtVa8vLzg4OAlMjyEtVa8vLzg4OAlMjyEtVa8vLzg4OAlMjyEtVa8vLzg4OCEtVa8vLzg4OAlMjyEtVa8vLzg4OAlMjyEtVa8vLzg4OCEtVa8vLzg4OCEtVbg4OCEtVa8vLwlMjyEtVa8vLzg4OCEtVa8vLzg4OCEtVa8vLzT09Pg4OAlMjyEtVa8vLzW1tbg4OAlMjyEtVa8vLy+vr7FxcXe3t7g4OBnN95CAAAAMnRSTlMAEBAQICAgIDAwMDBAQEBAUFBQYGBwcICAgICPj4+fn6+vv7+/v8/Pz9/f39/v7+/v73peZywAAAG1SURBVHgB7ZJRU9pQEIVPSCMFCsY0RqCCESQGTaN4q+7//2U9M5vkppOMXB467YPfU+7MfucsO+BfMVssZnBncP2LXA+c4x84Th5m7vHEtUTj787O7rTEKf7pEuTySUtc4vVlSxziydESGx+npTFlGn9YYuOne1Oxn7LEnqsn/n7MeJ1ViyXjey3pu/0CQMixMvYALy75GQJY2JJOPDxOZR4IvzO6HmxJJ57MuQ1nvr58Bw3uNQexJX/Gk71u8e3lCiSkDtIuubDxJNAJFdQPoGjJBR5fKTJemRqzbQtbY6aoGHOV10fI+9vtAF3h52Zz1QjK4PbtXSAizxFqRrwRyJcNocA7jVATPYsIBbLyUWG4NJrQgE9U+CuRRpBiAmXNnTID+0qhTAppCWTZ/AgCJTbNT1iKWEHJh3rIRvB+8GsNgmEuXUEOCYe2VUMwX5em/pckB+kRyM73OEbq1VLOw9+J9AssiYDRfJuqkIUg0UH6BeVGD8yVwgDEvxH5UJDiHC3OCzkikBUaViIOguQTHZ/k4iSQBCQRcRZklyQ7cReU/1r4FAo5iQKRnEQEDJcnMMTf5zfbpg9xBdTEKQAAAABJRU5ErkJggg==",
+            "fallback_url": "clientarea.php?action=emails"
+        },
+        "clientarea:announcements": {
+            "label": "News & Announcements",
+            "description": "View the latest news & announcements",
+            "app": "WHMCS_clientarea_announcements",
+            "order": 1,
+            "group_id": "whmcs",
+            "implements": "",
+            "base64_png_image": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAz1BMVEUAAAAlMjw3R1E/UbXOzs7t7e0lMjw3R1E/UbXOzs7t7e0lMjw3R1E/UbXOzs4lMjw3R1Ht7e0lMjzt7e0lMjw/UbXOzs7t7e0lMjzOzs7t7e0lMjzOzs7l5eXt7e0lMjwlMjyFj8usr7Ht7e0lMjw/UbXOzs7t7e0lMjw3R1E/UbXOzs7l5eUlMjw3R1E/UbWCjcvOzs7t7e0lMjw3R1E/UbXt7e0lMjw3R1Gsr7HOzs7t7e0lMjw3R1E/UbV6gIWWn9Gkp6rOzs7l5eXt7e3yVtnBAAAAPHRSTlMAEBAQEBAgICAgIDAwMDBAQEBQUGBgYGBwcHCAgICAj5+fn5+vr6+vv7+/v7/Pz8/Pz8/f39/f7+/v7++T1js6AAABJUlEQVR4Ac3UXVOCQBTG8YcSK7AMtUKzsoCgyF4kJQupbL//Z8qd2EllzXMumvpfn9/Oc7X4P20H18EmyFnn+awAxMzTl7dcRj4XggGORkLQgdmR52RgyTF00AyFjAbMpqce14FKuzvfSTgQKi2oPEwX+hDiZ3A4ZYIuDxj+Kw/0Mx6wMwa43QDqHDC54oJJjQv2fxs8ggeeagBSBtjCLDuhA3x1wQVtLth5ZgLsXcbj96JxHN+M1gCZmxVFkDmdwRpQXQAySxk9QL8AKb5zvDIobzIwl+WtBLYCjeWveAVAUoAelrI8PTgrQGqgREIFtJtaKOfcy/s7aDclBjQdDPPhLrSbsmPQsjOVTRSpAj4R9BRIiaChgAvWJr8Oaq0o8t0q/rhP5iAmML/5edQAAAAASUVORK5CYII=",
+            "fallback_url": "index.php?rp=/announcements"
+        },
+        "clientarea:downloads": {
+            "label": "Download Resources",
+            "description": "View and download resources",
+            "app": "WHMCS_clientarea_downloads",
+            "order": 1,
+            "group_id": "whmcs",
+            "implements": "",
+            "base64_png_image": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAQlBMVEUAAADOzs7Ozs7Ozs7t7e3Ozs7Ozs7t7e3t7e0Ym9glMjwyPkdNsN1XYWhbtd99hImip6uq0+bF3unOzs7c3Nzt7e2Y2TCUAAAACXRSTlMAQFBgj6/f3+/npsWFAAAAmUlEQVR4Ae3SsQ7CMAyE4QCBQoJbt8bv/6owoJMpIrpMINGb/2+w5PSy/cn883Ja72BmTgn0bTC8923gq54E6FmAngfoeYCeBOhJsLNOcOwFsb8xwOl9E0gpsoEWmESkPCYiEwVqwSoFtGDKgCCUPVrRMwBCnQAQtervvPdyDVsIMF7CRgLMEczdN/w12MDA9ucnyCzICYLv78X3mW+KzHVUAAAAAElFTkSuQmCC",
+            "fallback_url": "index.php?rp=/download"
+        },
+        "clientarea:knowledgebase": {
+            "label": "Search our Knowledgebase",
+            "description": "Search and find answers in the knowledgebase",
+            "app": "WHMCS_clientarea_knowledgebase",
+            "order": 1,
+            "group_id": "whmcs",
+            "implements": "",
+            "base64_png_image": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAjVBMVEUAAADxxA43R1HxxA4lMjytkx3xxA43R1ElMjzxxA43R1HxxA7xxA4wP0nxxA7xxA7xxA4lMjzxxA7xxA4lMjzxxA7xxA4lMjzxxA4lMjwoNkA2RlA3R1GljR/xxA7yyB3zyyz0zzv100r11ln22mj33nf44of55Zb66aX77bT88MP89NL9+OH++/D////GKclBAAAAGXRSTlMAECAgMDAwQFBQYGBwgICPn6+vv8/P3+/v86GWGAAAAWhJREFUeNqtlNF6gjAMRgto1YGIINhuLtQKqNvk/R9vyA1tadp93zzX/2mSpkBeB03yAgCKPKXETxBXMFHFvnzMQKfaOI8vYM7O0TwDG0Xgyc8Nez5C8mhXJeDYJk/BQWVpCJzM95EBAlIiUCdu7tdGGAY1NwwT5/7JtdaE1BBytUA/8n1WhdwQQKG+PUbjUePL24BO3TydGyjowg5Mzk9DoEIFM66DIDGBgl3osBkSUBCXrpVyHEJit1TqJw/MrinBOhL9RIttOputeaTD3lI0pbtOtF/3i5Rd1wpQiK0FxDDoTw0WWGAtIPsB6f0cCr1/4fsLJNqVPhpfQ5SBD0b/kV/682Wk5BfHT/CQEi3PudNgWWTmXUYeB0RjzzlqVLsNmcE5YpQJJTYOdiOjBGHNLcYwJs723TSKiLgIP3SDJcTN6qQZjBKvoBr+PAlPinFcEj9vk3FckL8QrlbhFsnjrA98vyCv5xf2Y5WHw4uPPgAAAABJRU5ErkJggg==",
+            "fallback_url": "knowledgebase.php"
+        },
+        "clientarea:network_status": {
+            "label": "Check Network Status",
+            "description": "News and information about network affecting issues",
+            "app": "WHMCS_clientarea_network_status",
+            "order": 1,
+            "group_id": "whmcs",
+            "implements": "",
+            "base64_png_image": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAk1BMVEUAAAAlMjyJkJXl5eXl5eXl5eXl5eXl5eUlMjzt7e0lMjzl5eUlMjwrOj4wMzgxQj8yOz03S0E6NDU9U0M/RD5DW0RFNDFMTEBQNS1VX2ZVdElaVUFafEtslFBwOCJweH57OR9+rVSBcESEtVaFjJGJkJWOeUaWm6CbOxOdoqaoiki1k0nFPgXQPwHl5eXt7e33v0/68qlqAAAADHRSTlMAQEBAYI+fv9/f7++oUs8VAAAAxElEQVR42t3VSxKCMBBF0cbwBxHBD4IKKqCoAfe/OkPKBfQbOIA7yiCnKj1J0ywSlsPOFkRmD2VSgIGAerARdAdm3Q/UIbN6WqAsWSDJsizS94ehZIDkLaV8jKdmGBoOkCAId1V1jhCgQ8C+ba8xADYf1QsFTz5QoiiK+K9Db/M8XwNgdVOdALC8KHDkAyXSNNWHu+dBQ/sLooUPAINUBh+4pHNhgD4JGVoJAxha5brwNzMhgH/3YPDKwpciCdthZwmaQ19v/qpOiFo6XwAAAABJRU5ErkJggg==",
+            "fallback_url": "serverstatus.php"
+        },
+        "clientarea:product_details": {
+            "label": "View Billing Information",
+            "description": "View the associated hosting package record within WHMCS",
+            "app": "WHMCS_clientarea_product_details",
+            "order": 1,
+            "group_id": "whmcs",
+            "implements": "billing",
+            "base64_png_image": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAhFBMVEUAAAAlMjzt7e0lMjwlMjwlMjxNV18lMjwlMjwlMjwlMjzt7e0lMjx1fYOdoqbt7e0lMjwlMjzt7e0lMjzt7e0lMjwlMjy4u74lMjwyPkc+SVJweH6JkJWip6vIyszU1tfb29vc3Nze3t7h4eLi4uLl5eXm5ubn5+fq6urr6+vs7Ozt7e2vu8cdAAAAGHRSTlMAEBAgQFBQYHCAj4+fn5+fr7+/z8/f7+/6LN6mAAABPElEQVR4AZXT23KCMBSF4Q2eAcUAYtra1p5b9/u/X50lyUwxKzXr1u93si8QurxRLeX25Z2eV6d4bJPoH22V6C0pqCcF96TgHlsn+getE72SgnpSUE8K7k8fpGD+9fgeLLg/hgvuwwX34SLisZcfFLf7b8XKFI/FvH5de6Ue+7zyTcSjGPku594XCR5FisdOf700xI/mvaR6SfVSpnisvsE/7+fTzBebf/zb4R6/bqeuqKL+CRyrfBHzd/a8nQExvuDvwf/3mSxRrHxBvB4sApGZxSauWGt4wwFm1VtsKW51+AI7mpF4sR9cW/T2MokW3XxgmRQ+iBRdPvVsZbGdsAJeJuNgK6yAF2lHwUJoAS8Ld0PlXxQs4LHtBRqLzYQU3kvWQvoHkQJ+KArH+5kEV6o2zmOToj1rs8An9AtdWcJqFh+b+gAAAABJRU5ErkJggg==",
+            "fallback_url": "clientarea.php?action=services"
+        },
+        "clientarea:invoices": {
+            "label": "View Invoice History",
+            "description": "View invoice & billing history",
+            "app": "WHMCS_clientarea_invoices",
+            "order": 1,
+            "group_id": "whmcs",
+            "implements": "",
+            "base64_png_image": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAArlBMVEUAAADt7e3Ozs7t7e3t7e23t7fOzs7t7e3Ozs7t7e3Ozs7t7e3t7e3Ozs7t7e3t7e3o6Ojt7e3Ozs7o6Ojt7e3Ozs7t7e23t7ft7e0lMjwyPkc+SVJXYWhkbHNweH59hImEtVaJkJWRvGmWm6Cew3yip6uvs7a3t7e50aK7vsG/1avDw8PG2LTIyszM3L7Ozs7T38fU1tfW1tbZ49Hc3Nze3t7g5trh4eLm6uTt7e1jZTdsAAAAGXRSTlMAECAgMEBAQFBQYGCAn5+vv7/Pz8/f3+/vfCvR5gAAASRJREFUeNrdll1TwjAQRVcFoaWAaG3TIggiohUMxQ+6//+PmQ8lTjqG7APD6HnJTnLPw33YmYChfbnBX0kCsAk536CDVj3vFi7OT+28W3jnvGvl9wo8NHk/4TltmryXsEh13l9YqDxNCDlNaHOicE0V+A/efAR0cHyhWtu8uoX7SY2lU7irC4VT+Hi0WZJL/zlhmu0YllgOsyxfOYU8M8y0PnUK85sdoy1uR+Ioj1z61lTIS1zJSk/epec421/6wZQei9JjeRymtNmniiKsJ4IXglC4F6hOVYgNqsil/6OQEoW0SRNCAJLQhW8hasWoiQKmh4G50tOV+jpooQNw0sOvqaGMnrhSORbIR3Wj6bC4oYcY40AOZ31MIgCZY9jXjxFL9ACfMOK0SEks1o8AAAAASUVORK5CYII=",
+            "fallback_url": "clientarea.php?action=invoices"
+        },
+        "clientarea:tickets": {
+            "label": "View Support Tickets",
+            "description": "View all support ticket history",
+            "app": "WHMCS_clientarea_tickets",
+            "order": 1,
+            "group_id": "whmcs",
+            "implements": "support",
+            "base64_png_image": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAilBMVEUAAADt7e3Ozs7t7e3Ozs7g4ODt7e3t7e3t7e3Ozs7Ozs7t7e0lMjwyPkc+SVJLVV1XYWhcjihkbHNllDRweH6JkJWWm6CZwW+exHeip6ulvouuw5evs7a3yaO7vsHD167IyszI2rbJ1bzOzs7O3b7S28jU1tfW1tbY4s7d5dXh4eLk5+Ho6uXt7e37F3KlAAAADHRSTlMAEDBAYHCPn6/P7+8BnfPqAAAA+UlEQVR4AdXV206DQBDG8amHemApFXG1tq5bFZXRef/Xc7fdTryCb6Ix8X9DSOYXyLAJlJqdCdT5jPbNBWxeQIWCqgCB+22wvdUw8PhPQQiMA/aNSzUbEMSFK3UYqJ22gUAaXPgQ2nRdQqBzLR+epGD7nvscWyt/By/TZ4nzK7V7cDfIJIi7zQbJDYNMgtfdqlb48e7yqqLgIM3XLKX1lTYGvN7cA8A3LeNAwwEvXR0twOs5AsGNAeh3W1mAcIgCAu2HYP2U+4DBg2gIuO7FBPpeQKD9OaisYK7A+Nt9O3R6PBZpz6UTArPOk3WerPNknSfrPF1cHhHcF9/8CB/eH3crAAAAAElFTkSuQmCC",
+            "fallback_url": "supporttickets.php"
+        },
+        "clientarea:submit_ticket": {
+            "label": "Open Ticket",
+            "description": "Open a new support ticket",
+            "app": "WHMCS_clientarea_submit_ticket",
+            "order": 1,
+            "group_id": "whmcs",
+            "implements": "",
+            "base64_png_image": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAaVBMVEUAAACEtVaZwW+EtVaEtVaZwW9cjiiEtVaZwW+EtVaEtVaZwW+ZwW+EtVaZwW+EtVaXwG2ZwW+EtVaZwW+EtVaZwW+EtVaZwW+EtVaZwW9cjihmmDRrmzprnTlzoUN4qUiEtVaGsVmZwW98tPsQAAAAGnRSTlMAEBAgMDBAQEBgcHCAj4+fn5+vr7+/z8/v70sG19AAAADsSURBVHja7ZPZDoIwFAUPdUFRcQcsKNL//0hNLTf2RCx9NHFeCLczLSSAJ+poPLTgz48KL3Lj0/R+Qwu5Cy407/qgo4WLCwxze/k3w0jAdI3WTWdCAfMPfisoF6W9LiDk34JSQdlCQVhRQD6g7Ld5FviR2Mc+8A4hnwP2d8Yyg7D2g3tPkeDJ1t1NIWRuJAH5Q3CwJD8YJL5fnYTPwQGYvO8/gbD8GGRZ4Z2fQthQEOYf/EbQ1lrX7fjgqi3XsUGrHXxGNRDUfVDTwmYg0II/PyQcZKllLqTvWJ1+0ZHE+oj1Eesj1kesj6KK8B8h7csXeqVdoAAAAABJRU5ErkJggg==",
+            "fallback_url": "submitticket.php"
+        },
+        "clientarea:upgrade": {
+            "label": "Upgrade\/Downgrade",
+            "description": "Upgrade or Downgrade your Hosting Package",
+            "app": "WHMCS_clientarea_upgrade",
+            "order": 1,
+            "group_id": "whmcs",
+            "implements": "upgrade",
+            "base64_png_image": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAw1BMVEUAAAANhr8Ym9glMjwYm9glMjwNhr8Ym9glMjwNhr8Ym9glMjwNhr8Ym9gYm9glMjwNhr8XYocYm9gNhr8Ym9gfR10lMjwNhr8Ym9giO0slMjwNhr8Ym9gbVHAlMjwYm9glMjwNhr8Qi8UYm9glMjwYm9glMjwNhr8Ym9glMjwYm9glMjwNhr8PgbcQi8USdqYTcZ4TkcwVbJYWZ44WhrsYm9gZXH4ZfKsbV3UcUm0eTGUfR10fZ4ohQlUiPUwkN0QlMjwzhEifAAAALHRSTlMAEBAQICAwMDBAQEBQUGBgcHBwgICAgI+Pj4+fn5+fr6+/v7+/z8/f39/v76ecmrsAAAGnSURBVHjanZPrQoJAEIUPZiFbkimpmUWEJKHdwy528f2fKgZXWZotWb8/zuyZM7s7K9DQGIwWGaNBA1VoULVktIuNHC5UJodG9cQGx75sfN7tXkyW8b8X2bnOa7rLZJAnV/iDPcdxTqji+8iRnOWO4yzaY+Wt8TTjiwoep2tmlH9RNG6Vuwe5/kj6vKiXHe7yMCh2sTpSfiX5XjU80cpMJh0LOQfjlfwpD1BwQ4b3VTY+oPZBIZP6Ni0xL/cILPQUVd1fPaWS9/Cg8JHx/FDihdbUBaSGmBsSs/oEoZkhNDd4ZgbP3NA0MzQh9MMQQj8+AZsvxmnqAz4FDBv85YZwm8gQLoZMhMbgYo2rM4Rs1FTp++5fWsgnhz799oE2N5BYIvJqqC/DOmrtqFBkE3is/2rUQqPyi/m2arB9PhChmVKUH45py01tzcVqw+w5aoDPDZqH6GNNnz2DztAuDG2tIWL/jTRxATfJgl9EIMKUEwOx9nsjqA8jinSrQxCewffGb8bh8xDVDWI7A6obsKUhrlofS8PlbUUupaE3rcipNFhBtfrAAvADzXlsJf/WC3oAAAAASUVORK5CYII=",
+            "fallback_url": "clientarea.php?action=services"
+        },
+        "clientarea:shopping_cart_domain_register": {
+            "label": "Register New Domain",
+            "description": "Search for and Register New Domains",
+            "app": "WHMCS_clientarea_shopping_cart_domain_register",
+            "order": 1,
+            "group_id": "whmcs",
+            "implements": "",
+            "base64_png_image": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAilBMVEUAAAAlMjyEtVYlMjyEtVYlMjxFXkWEtVYlMjwlMjyEtVYlMjyEtVYlMjyEtVYlMjyEtVYlMjyEtVYlMjyEtVYlMjyEtVYlMjyEtVYlMjyEtVYlMjyEtVYlMjyEtVYlMjwrOj4xQj83S0E9U0NDW0RPa0dVdElafEtghExmjE5ynFF4pVN+rVSEtVZDVU8AAAAAH3RSTlMAEBAgIDAwMEBQUGBgcHCAgI+Pn5+vr7+/z8/f3+/v0SY3awAAAZ5JREFUeAGVlu9y2yAQxJcqapUqKqVYpgqRN7H6p3HK+79ekXUZk8Y26DfjOT7smjsQB3hH3VnHI852NTJUxvMN3lTX5JZnsJcsyvACRuEMjedFfIN3tLxKi/+wzGAz+oxD8inOqmERDQTlWYRXWDAsxMj+sphKVqgYKxOUUxVXkFThuQIP1FxFjY6r6GC5CgvHlNHq/hRoxl4P7PVJ5MCUQQG4XUI9ys7WQJI4mKLQOdOzgnYtWmoo1wF9jOcNDpC1m8eKGk2MFQmcMYwDhzeGSgzNBYOCY4Vb3Wo2MdTQBYZhKXBsjoEWLQfckiqpwSUpRQbnk+Dm4Uh6T8Gt3rj1n0bNAp6maeKRuuTz/vkSZp6jxxccoP0hvPKbJn9E93/DiT9Vtgk8voSUr9ku8CtRP8TfTa6RJRPcYROnyLTKfarHNoTvmWY8hch2u+g3IZJp97PhPkpFH8lcKJMk8+lVv8N1x5OkL3qp4VpWh9MCyShz7f5YdPei333IXuzPIeVz/unweEj0dyWPk4/fgrCT/88+f242D/P6fDnm/w9eCuE9FO/4IwAAAABJRU5ErkJggg==",
+            "fallback_url": "cart.php?a=add&domain=register"
+        },
+        "clientarea:shopping_cart_domain_transfer": {
+            "label": "Transfer a Domain",
+            "description": "Transfer an Existing Domain Name",
+            "app": "WHMCS_clientarea_shopping_cart_domain_transfer",
+            "order": 1,
+            "group_id": "whmcs",
+            "implements": "",
+            "base64_png_image": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAY1BMVEUAAAAlMjzxxA4lMjzxxA4lMjzxxA4lMjzxxA4lMjzxxA4lMjzxxA4lMjzxxA4lMjzxxA4lMjzxxA4lMjzxxA4lMjzxxA4lMjzxxA4lMjzxxA4lMjzxxA4lMjzxxA4lMjzxxA4Q6TfkAAAAH3RSTlMAEBAgIDAwQEBQUGBgcHCAgI+Pn5+vr7+/z8/f3+/vdkdMmQAAAdxJREFUeAG9lu+SoyAQxBvEJcZjMWcUTVbh/Z/yBgPRzbI3tR/uflWpKYUOPYz8QQF1Cxs3CZa3E4BTSGwPb/ie0xTCb0CO08YogfcQphPKyDEQJDjSBeJa9HZeqemje2mTXXy9ngvu4/sOkZLkayaKzCoUURMJihP0Lb9e25QCi5SHfOOQDGoN56d2jTVioGqueYyR8gXLRPXYtQosKvuI0g48sehTqtgHWFKqKjriB9iHOEfhNX9bHHIcJf4D8iR/1nkKI3bawQ0N0DxC7Wzvek2/Opd4wqcq9z5SXbZgYX1mEblknwQ1tVg3VDEsJCTBMHvvnPe6KKAODQUdQ0ud6BmWoi4KWiuM9+YhaGE5AdmJXry7L9VCIfpmBWi3BKtH2EYBjVofBfu0NlYAlbWmomC2IGwDYVrAGCTB7WeFU+8K/4ZKay2Q4D/v9u4jc/tc0u/4C9XsM07wSxRi8Tuz4DcB548M7DbTpr82SaG5jWxOVnQS9NxWma3XSbAwm7F+pqqJuL6Y7X4TNIf14pkDZXOy1ICwhIsC5shakiInfT8KwtpJvND7hyILLtyxmzouQ4oVduS1cLDj4o+Yr1eH7nh1yKYyPX85IaxPLAZl8vVnSvlU23w6I0D8AUrZRbBfAxQ+AAAAAElFTkSuQmCC",
+            "fallback_url": "cart.php?a=add&domain=transfer"
+        }
+    },
+    "disabledApplicationLinks": {
+        "clientarea:shopping_cart_addons": {
+            "label": "View\/Order Addons",
+            "description": "View Available Hosting Package Addon Products & Services",
+            "app": "WHMCS_clientarea_shopping_cart_addons",
+            "order": 1,
+            "group_id": "whmcs",
+            "implements": "",
+            "base64_png_image": "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAw1BMVEUAAAANhr8Ym9glMjwYm9glMjwNhr8Ym9glMjwNhr8Ym9glMjwNhr8Ym9gYm9glMjwNhr8XYocYm9gNhr8Ym9gfR10lMjwNhr8Ym9giO0slMjwNhr8Ym9gbVHAlMjwYm9glMjwNhr8Qi8UYm9glMjwYm9glMjwNhr8Ym9glMjwYm9glMjwNhr8PgbcQi8USdqYTcZ4TkcwVbJYWZ44WhrsYm9gZXH4ZfKsbV3UcUm0eTGUfR10fZ4ohQlUiPUwkN0QlMjwzhEifAAAALHRSTlMAEBAQICAwMDBAQEBQUGBgcHBwgICAgI+Pj4+fn5+fr6+/v7+/z8/f39/v76ecmrsAAAGnSURBVHjanZPrQoJAEIUPZiFbkimpmUWEJKHdwy528f2fKgZXWZotWb8/zuyZM7s7K9DQGIwWGaNBA1VoULVktIuNHC5UJodG9cQGx75sfN7tXkyW8b8X2bnOa7rLZJAnV/iDPcdxTqji+8iRnOWO4yzaY+Wt8TTjiwoep2tmlH9RNG6Vuwe5/kj6vKiXHe7yMCh2sTpSfiX5XjU80cpMJh0LOQfjlfwpD1BwQ4b3VTY+oPZBIZP6Ni0xL/cILPQUVd1fPaWS9/Cg8JHx/FDihdbUBaSGmBsSs/oEoZkhNDd4ZgbP3NA0MzQh9MMQQj8+AZsvxmnqAz4FDBv85YZwm8gQLoZMhMbgYo2rM4Rs1FTp++5fWsgnhz799oE2N5BYIvJqqC/DOmrtqFBkE3is/2rUQqPyi/m2arB9PhChmVKUH45py01tzcVqw+w5aoDPDZqH6GNNnz2DztAuDG2tIWL/jTRxATfJgl9EIMKUEwOx9nsjqA8jinSrQxCewffGb8bh8xDVDWI7A6obsKUhrlofS8PlbUUupaE3rcipNFhBtfrAAvADzXlsJf/WC3oAAAAASUVORK5CYII=",
+            "fallback_url": "cart.php?gid=addons"
+        }
+    }
+}

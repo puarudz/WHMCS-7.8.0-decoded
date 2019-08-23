@@ -1,0 +1,21 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-servers",
+  "name": "globalsignssl",
+  "license": "proprietary",
+  "category": "digitalservices",
+  "description": {
+    "name": "GlobalSignSSL",
+    "tagline": "Provision SSL Certificates with a GlobalSign reseller account.",
+    "long": ""
+  },
+  "support": {
+    "docs_url": "https://docs.whmcs.com/GlobalSign_SSL"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

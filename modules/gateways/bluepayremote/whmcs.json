@@ -1,0 +1,20 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-gateways",
+  "name": "bluepayremote",
+  "license": "proprietary",
+  "category": "payments",
+  "description": {
+    "name": "BluePay Remote",
+    "tagline": "A tokenised storage solution for secure credit card processing."
+  },
+  "support": {
+    "docs_url": "https:\/\/docs.whmcs.com\/BluePay"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

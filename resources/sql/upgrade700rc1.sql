@@ -1,0 +1,1 @@
+-- lastCronInvocationTime removed by backport fix in 7.0.0 GA

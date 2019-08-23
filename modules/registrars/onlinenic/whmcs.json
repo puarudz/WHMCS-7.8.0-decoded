@@ -1,0 +1,25 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-registrars",
+  "name": "onlinenic",
+  "license": "proprietary",
+  "category": "domains",
+  "description": {
+    "name": "OnlineNIC",
+    "tagline": "A leading domain reseller provider.",
+    "long": ""
+  },
+  "logo": {
+    "filename": "logo.gif"
+  },
+  "support": {
+    "homepage": "https:\/\/www.onlinenic.com\/",
+    "docs_url": "https:\/\/docs.whmcs.com\/OnlineNIC"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

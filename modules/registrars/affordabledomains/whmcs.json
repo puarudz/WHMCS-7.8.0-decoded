@@ -1,0 +1,23 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-registrars",
+  "name": "affordabledomains",
+  "license": "proprietary",
+  "category": "domains",
+  "description": {
+    "name": "Affordable Domains",
+    "tagline": "A New Zealand based popular domains wholesale provider."
+  },
+  "logo": {
+    "filename": "logo.gif"
+  },
+  "support": {
+    "homepage": "https:\/\/www.affordabledomains.co.nz\/"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

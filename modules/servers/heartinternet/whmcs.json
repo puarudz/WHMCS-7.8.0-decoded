@@ -1,0 +1,21 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-servers",
+  "name": "heartinternet",
+  "license": "proprietary",
+  "category": "provisioning",
+  "description": {
+    "name": "Heart Internet",
+    "tagline": "UK based reseller service provider of web hosting and domain names.",
+    "long": ""
+  },
+  "support": {
+    "docs_url": "https://docs.whmcs.com/Heart_Internet"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}

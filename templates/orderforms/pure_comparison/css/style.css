@@ -1,0 +1,399 @@
+/**
+ * Pure Comparison order form style sheet
+ *
+ * Contains styling specific to the Pure Comparison order template.
+ *
+ * @project   WHMCS
+ * @version   1.0
+ * @author    WHMCS Limited <development@whmcs.com>
+ * @copyright Copyright (c) WHMCS Limited 2005-2015
+ * @license   http://www.whmcs.com/license/
+ * @link      http://www.whmcs.com/
+ */
+
+div#order-pure_comparison {
+	padding:0 0 0 0;
+	margin:0 0 50px 0;
+    height: 100%;
+    width: 100%;
+	line-height:18px;
+	font-size:14px;
+	color:#666666;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+#order-pure_comparison a,
+#order-pure_comparison a:hover,
+#order-pure_comparison a:active,
+#order-pure_comparison a:visited,
+#order-pure_comparison a:link {
+    outline:none;
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+}
+#order-pure_comparison div,
+#order-pure_comparison ul,
+#order-pure_comparison li {
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+}
+
+#order-pure_comparison h1 {
+}
+#order-pure_comparison h2 {
+}
+#order-pure_comparison h3 {
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	font-size:32px;
+	line-height:38px;
+	font-weight:bold;
+	color:#333333;
+}
+#order-pure_comparison h4 {
+	padding:0 0 0 0;
+	margin:10px 0;
+	font-size:24px;
+	color:#333333;
+}
+#order-pure_comparison h5 {
+	padding:0 0 0 0;
+	margin:5px 0;
+	font-size:16px;
+	color:#666666;
+	font-weight:normal;
+}
+
+#order-pure_comparison .txt-center {
+	padding-top:0;
+	text-align:center;
+}
+
+#order-pure_comparison .alert {
+	margin-top: 70px;
+	padding: 15px;
+}
+
+#order-pure_comparison .page-container {
+	padding:0 2% 40px 2%;
+	margin:0 auto;
+}
+
+#order-pure_comparison .price-table-container {
+	padding:20px 0 0 0;
+	margin:0 0 0 0;
+}
+#order-pure_comparison .price-table-container ul {
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	list-style:none;
+	text-align:center;
+}
+#order-pure_comparison .price-table-container ul li {
+	padding:30px 4px 6px 4px;
+	margin:0 0 0 0;
+	display:inline-block;
+	background:url(../img/shadow-btm.png) no-repeat center bottom;
+}
+#order-pure_comparison .price-table-container .price-table {
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	width:215px;
+	background:#ffffff;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-ms-border-radius:5px;
+	border-radius:5px;
+	-webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.30);
+	-moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.30);
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.30);
+}
+#order-pure_comparison .price-table-container .price-table .top-head {
+    /* Old browsers */
+	background: #ffffef;
+    /* FF3.6+ */
+	background: -moz-linear-gradient(top,  #ffffef 0%, #fefebe 100%);
+    /* Chrome,Safari4+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffef), color-stop(100%,#fefebe));
+    /* Chrome10+,Safari5.1+ */
+	background: -webkit-linear-gradient(top,  #ffffef 0%,#fefebe 100%);
+    /* Opera 11.10+ */
+	background: -o-linear-gradient(top,  #ffffef 0%,#fefebe 100%);
+    /* IE10+ */
+	background: -ms-linear-gradient(top,  #ffffef 0%,#fefebe 100%);
+    /* W3C */
+	background: linear-gradient(to bottom,  #ffffef 0%,#fefebe 100%);
+    /* IE6-9 */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffef', endColorstr='#fefebe',GradientType=0);
+	border-radius:5px 5px 0 0;
+	-moz-border-radius:5px 5px 0 0;
+	-webkit-border-radius:5px 5px 0 0;
+}
+#order-pure_comparison .price-table-container .price-table .top-head .top-area {
+	padding:15px 0;
+	margin:0 0 0 0;
+	border-bottom:1px solid #f1f1b6;
+}
+#order-pure_comparison .price-table-container .price-table .top-head .top-area h4 {
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	color:#333333;
+	line-height:29px;
+	font-weight:bold;
+}
+#order-pure_comparison .price-table-container .price-table .top-head .top-area p {
+	padding:5px 0 0 0;
+	margin:0 0 0 0;
+	color:#333333;
+	font-size:13px;
+	line-height:20px;
+}
+#order-pure_comparison .price-table-container .price-table ul {
+	padding:4px 10px 10px 10px;
+	margin:0 0 0 0;
+	list-style:none;
+}
+#order-pure_comparison .price-table-container .price-table ul li {
+	padding:17px 0 15px 0;
+	margin:0 0 0 0;
+	width:100%;
+	border-bottom:1px solid #d9d9d9;
+	color:#333333;
+	text-align:center;
+	line-height:16px;
+	font-size:15px;
+	background:none;
+}
+#order-pure_comparison .price-table-container .price-table ul li span {
+}
+#order-pure_comparison .price-table-container .price-table ul li a {
+	color:#006699;
+}
+#order-pure_comparison .price-table-container .price-table ul li:last-child {
+	border-bottom:0;
+}
+#order-pure_comparison .price-table-container .price-area {
+	padding:5px 0;
+	margin:0 0 0 0;
+	color:#333333;
+	font-size:16px;
+    /* Old browsers */
+	background: #ffffff;
+    /* FF3.6+ */
+	background: -moz-linear-gradient(top,  #ffffff 2%, #fefebe 100%);
+    /* Chrome,Safari4+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(2%,#ffffff), color-stop(100%,#fefebe));
+    /* Chrome10+,Safari5.1+ */
+	background: -webkit-linear-gradient(top,  #ffffff 2%,#fefebe 100%);
+    /* Opera 11.10+ */
+	background: -o-linear-gradient(top,  #ffffff 2%,#fefebe 100%);
+    /* IE10+ */
+	background: -ms-linear-gradient(top,  #ffffff 2%,#fefebe 100%);
+    /* W3C */
+	background: linear-gradient(to bottom,  #ffffff 2%,#fefebe 100%);
+    /* IE6-9 */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#fefebe',GradientType=0);
+	border-radius:0 0 5px 5px;
+	-moz-border-radius:0 0 5px 5px;
+	-webkit-border-radius:0 0 5px 5px;
+}
+#order-pure_comparison .price-table-container .price-area .price {
+	padding:10px 0 10px 0;
+}
+#order-pure_comparison .price-table-container .price-area .price span {
+	font-size:32px;
+}
+#order-pure_comparison .price-table-container .order-button,
+#order-pure_comparison .price-table-container .order-button:hover {
+	padding:13px 0;
+	margin:10px 20px;
+	font-size:18px;
+	color:#ffffff;
+	display:block;
+	font-weight:bold;
+    /* Old browsers */
+	background: #4a92b7;
+    /* FF3.6+ */
+	background: -moz-linear-gradient(top,  #4a92b7 0%, #006699 100%);
+    /* Chrome,Safari4+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4a92b7), color-stop(100%,#006699));
+    /* Chrome10+,Safari5.1+ */
+	background: -webkit-linear-gradient(top,  #4a92b7 0%,#006699 100%);
+    /* Opera 11.10+ */
+	background: -o-linear-gradient(top,  #4a92b7 0%,#006699 100%);
+    /* IE10+ */
+	background: -ms-linear-gradient(top,  #4a92b7 0%,#006699 100%);
+    /* W3C */
+	background: linear-gradient(to bottom,  #4a92b7 0%,#006699 100%);
+    /* IE6-9 */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4a92b7', endColorstr='#006699',GradientType=0);
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	-ms-border-radius:3px;
+	border-radius:3px;
+	text-decoration:none;
+	-webkit-text-shadow: 0 0 1px rgba(0,0,0,0.4);
+	-moz-text-shadow: 0 0 1px rgba(0,0,0,0.4);
+	-ms-text-shadow: 0 0 1px rgba(0,0,0,0.4);
+	text-shadow: 0 0 1px rgba(0,0,0,0.4);
+}
+#order-pure_comparison .price-table-container .order-button.unavailable:hover {
+    cursor: not-allowed;
+    /* Old browsers */
+    background: #404A53;
+    /* FF3.6+ */
+    background: -moz-linear-gradient(top,  #404A53 0%, #949499 100%);
+    /* Chrome,Safari4+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#404A53), color-stop(100%,#949499));
+    /* Chrome10+,Safari5.1+ */
+    background: -webkit-linear-gradient(top,  #404A53 0%,#949499 100%);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top,  #404A53 0%,#949499 100%);
+    /* IE10+ */
+    background: -ms-linear-gradient(top,  #404A53 0%,#949499 100%);
+    /* W3C */
+    background: linear-gradient(to bottom,  #404A53 0%,#949499 100%);
+    /* IE6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#404A53', endColorstr='#949499',GradientType=0);
+}
+
+/* Active Table */
+
+#order-pure_comparison .price-table-container .price-table.active {
+	margin:0 15px 0 15px;
+	transform: scale(1.08);
+}
+#order-pure_comparison .price-table-container .price-table.active .top-head {
+	background: #ffe1e1; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffe1e1 0%, #ffbfbf 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffe1e1), color-stop(100%,#ffbfbf)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffe1e1 0%,#ffbfbf 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffe1e1 0%,#ffbfbf 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffe1e1 0%,#ffbfbf 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffe1e1 0%,#ffbfbf 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe1e1', endColorstr='#ffbfbf',GradientType=0 ); /* IE6-9 */
+}
+#order-pure_comparison .price-table-container .price-table.active .top-head .top-area {
+	padding:5px 0;
+}
+#order-pure_comparison .price-table-container  .price-table.active .price-area {
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #ffe1e1 82%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(82%,#ffe1e1)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#ffe1e1 82%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#ffe1e1 82%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#ffe1e1 82%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 0%,#ffe1e1 82%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffe1e1',GradientType=0 ); /* IE6-9 */
+}
+#order-pure_comparison .price-table-container .price-table .popular-plan {
+	margin-top:5px;
+	width:100%;
+	height:35px;
+	position:relative;
+}
+#order-pure_comparison .price-table-container .price-table .popular-plan .plan-container {
+	position:absolute;
+	height:35px;
+	top:0;
+	left:-5%;
+	width:110%;
+	background:url(../img/shadow-left.png) no-repeat left bottom;
+	background-size:100% auto;
+}
+#order-pure_comparison .price-table-container .price-table .popular-plan .plan-container:before {
+}
+#order-pure_comparison .price-table-container .price-table .popular-plan .plan-container .txt-container {
+	padding:6px 0 0 0;
+	height:28px;
+	width:100%;
+    /* Old browsers */
+	background: #f30000;
+    /* FF3.6+ */
+	background: -moz-linear-gradient(top,  #f30000 0%, #b70202 100%);
+    /* Chrome,Safari4+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f30000), color-stop(100%,#b70202));
+    /* Chrome10+,Safari5.1+ */
+    background: -webkit-linear-gradient(top,  #f30000 0%,#b70202 100%);
+    /* Opera 11.10+ */
+	background: -o-linear-gradient(top,  #f30000 0%,#b70202 100%);
+    /* IE10+ */
+	background: -ms-linear-gradient(top,  #f30000 0%,#b70202 100%);
+    /* W3C */
+	background: linear-gradient(to bottom,  #f30000 0%,#b70202 100%);
+    /* IE6-9 */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f30000', endColorstr='#b70202',GradientType=0);
+	color:#ffffff;
+	font-size:12px;
+	font-weight:bold;
+	text-transform:uppercase;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+	-webkit-text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+	-moz-text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+	-webkit-box-shadow: -1px 10px 2px -7px rgba(0,0,0,0.18);
+	-moz-box-shadow: -1px 10px 2px -7px rgba(0,0,0,0.18);
+	box-shadow: -1px 10px 2px -7px rgba(0,0,0,0.18);
+}
+
+#order-pure_comparison .includes-features {
+    margin:0 auto;
+    width:100%;
+    max-width:780px;
+    padding-top:55px;
+}
+#order-pure_comparison .includes-features .head-area {
+    padding:0 0 0 0;
+    margin:0 0 0 0;
+    text-align:center;
+    background:url(../img/head-bg.png) no-repeat center center;
+    background-size:100% auto;
+}
+#order-pure_comparison .includes-features .head-area span {
+    padding:0 20px;
+    margin:0 0 0 0;
+    display:inline-table;
+    background:#ffffff;
+}
+#order-pure_comparison .main-container.price-01 .includes-features .head-area span {
+    background:#f3f3f3;
+}
+#order-pure_comparison .includes-features ul.list-features {
+    padding:20px 0 0 0;
+    margin:0 0 0 0;
+    list-style:none;
+}
+#order-pure_comparison .includes-features ul.list-features li {
+    padding:0 0 0 22px;
+    margin:5px 0;
+    width:33%;
+    display:inline-table;
+    background:url(../img/tick.png) no-repeat;
+}
+
+/* Sidebar */
+
+html, body {
+    overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+.row-product-selection {
+    position: relative;
+    left: 0;
+    -webkit-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+}
+
+.product-selection-sidebar {
+    position: absolute;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    display: none;
+}
+
+#btnShowSidebar {
+    margin: 0 0 20px 0;
+}

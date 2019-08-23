@@ -1,0 +1,42 @@
+UL.jqueryFileTree {
+    font-family: Verdana, sans-serif;
+    font-size: 11px;
+    line-height: 18px;
+    padding: 0px;
+    margin: 0px;
+}
+
+UL.jqueryFileTree LI {
+    list-style: none;
+    padding: 0px;
+    padding-left: 20px;
+    margin: 0px;
+    white-space: nowrap;
+}
+
+UL.jqueryFileTree A {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding: 0px 2px;
+}
+
+UL.jqueryFileTree A:hover {
+    background: #BDF;
+}
+
+/* Core Styles */
+.jqueryFileTree LI.directory { background: url(../../assets/img/directory.png) left top no-repeat; }
+.jqueryFileTree LI.expanded { background: url(../../assets/img/folderopen.png) left top no-repeat; }
+.jqueryFileTree LI.wait { background: url(../../assets/img/spinner.gif) left top no-repeat; }
+
+/* File Extensions*/
+.jqueryFileTree LI.file { background: url(../../assets/img/file.png) left top no-repeat; }
+.jqueryFileTree LI.ext_doc { background: url(../../assets/img/doc.png) left top no-repeat; }
+.jqueryFileTree LI.ext_gif { background: url(../../assets/img/picture.png) left top no-repeat; }
+.jqueryFileTree LI.ext_jpg { background: url(../../assets/img/picture.png) left top no-repeat; }
+.jqueryFileTree LI.ext_jpeg { background: url(../../assets/img/picture.png) left top no-repeat; }
+.jqueryFileTree LI.ext_png { background: url(../../assets/img/picture.png) left top no-repeat; }
+.jqueryFileTree LI.ext_pdf { background: url(../../assets/img/pdf.png) left top no-repeat; }
+.jqueryFileTree LI.ext_txt { background: url(../../assets/img/txt.png) left top no-repeat; }
+.jqueryFileTree LI.ext_zip { background: url(../../assets/img/zip.png) left top no-repeat; }

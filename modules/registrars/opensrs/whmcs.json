@@ -1,0 +1,24 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-registrars",
+  "name": "opensrs",
+  "license": "proprietary",
+  "category": "domains",
+  "description": {
+    "name": "OpenSRS",
+    "tagline": "A leading provider of wholesale domain names, SSL certificates, and hosted email."
+  },
+  "logo": {
+    "filename": "logo.gif"
+  },
+  "support": {
+    "homepage": "https:\/\/www.opensrs.com\/",
+    "docs_url": "https:\/\/docs.whmcs.com\/OpenSRS"
+  },
+  "authors": [
+    {
+      "name": "WHMCS",
+      "homepage": "https:\/\/www.whmcs.com\/"
+    }
+  ]
+}
